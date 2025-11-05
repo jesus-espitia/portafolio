@@ -1,0 +1,425 @@
+.logo img{
+    width: 25%;
+}
+
+.cabeza{
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+    align-items: center;
+    word-spacing: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+display: flex;
+gap: 1rem;
+}
+
+nav a{
+text-decoration: none;
+color: black;
+padding: 10px;
+width: 150%;
+}
+a:hover{
+    color: salmon;
+}
+
+.texto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.texto p{
+    padding-left: 1rem;
+}
+.caja1y2{
+    background-color: salmon;
+    display: flex;
+}
+
+.img-bloque1{
+    width: 50%;
+}
+.textos{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textos1{
+    width: 50%;
+}
+
+.años {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.respaldan{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.img-bloque2{
+    width: 50%;
+}
+
+.cajaVyP{
+    display: flex;
+    background-color: rgb(62, 219, 62);
+}
+
+.textosV{
+    width: 50%;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+.separa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.pequeño{
+    font-size: 1.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logitos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    gap: 3rem;
+    padding-top: 2rem;
+}
+
+
+.titulosss{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parrafos{
+    display: flex;
+    gap: 3%;
+    font-size: 1.3rem;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grupo{
+    align-items: center;
+
+}
+
+.clasesproxima{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.paa{
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.im{
+    width: 30%;
+}
+
+.caja7{
+    background-color: white;
+    display: flex;
+    width: 100%;
+}
+
+.imagen1{
+    width: 30%
+}
+
+.fecha1{
+    background-color: salmon;
+    width: 30%;
+}
+
+.contenedor1{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.imgtomate{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.elfondo{
+    background-color: salmon;
+    padding: 0.1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.precio{
+    background-color:rgb(48, 219, 77);     
+    color: #fff;
+    text-align: center;  
+    border-radius: 0.5rem;
+}
+
+
+.parrafo1{
+    background-color: white;
+}
+
+.comida{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.salmons{
+    color: salmon;
+}
+
+.boton{
+    background-color: salmon;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.imagenes1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.tomates{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: 1px solid #aabbcc;
+    justify-content: space-around;
+}
+.texto{
+    background-color: salmon;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagengrande{
+    background: url(../img-escuelaDeCocina/chef_bg.jpg);
+    background-size: cover;
+    height: 40rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    display: block;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.grandote{
+    width: 100%;
+}
+
+.elboton{
+    background-color: salmon;
+    display: flex;
+    justify-content: center;
+    width: 10rem;
+    height: 2rem;
+    align-items: center;
+}
+
+.portada{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.portada h2{
+    padding: 1rem;
+    
+}
+
+.termina{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    font-size: 1.1em;
+    word-spacing: 0.5em;
+}
+
+.termina a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+a.cosas:hover{
+    color: rgb( 250, 147, 112);
+}
+
+a.listas2:hover{
+    color: rgb(250, 147, 112);
+    display: flex;
+    word-spacing: 0%;
+}
+
+
+@media screen and (max-width: 500px){
+    .caja1y2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .textos{
+        width: 100%;
+    }
+    .img-bloque1{
+        width: 100%;
+    }
+
+.chef{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chef p{
+    text-align: center;
+}
+
+    .cajaVyP{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .img-bloque1{
+        width: 100%;
+    }
+    .textos{
+        width: 100%;
+    }
+    .textos1{
+        width: 100%;
+    }
+
+
+    .separa{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .pequeño{
+        width: 100%;
+        text-align: center;
+    }
+    .fotos{
+        width: 100%;
+    }
+    .logitos{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+    .titulosss{
+        width: 100%;
+    }
+    .parrafos{
+        width: 100%;
+    }
+
+    .clasesproxima{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .paa{
+    width: 100%;
+    text-align: center;
+
+    }
+    .im{
+        width: 100%;
+    }
+
+    .contenedor1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tomates{
+        width: 100%;
+    }
+
+    .imagengrande{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .grandote{
+        width: 100%;
+}
+    .portada{
+        width: 100%;
+    }
+
+    .finalista{
+        width: 100%;
+    }
+
+    .elboton{
+        width: 100%;
+    }
+
+    .termina{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ultima{
+        width: 100%;
+    }
+
+}

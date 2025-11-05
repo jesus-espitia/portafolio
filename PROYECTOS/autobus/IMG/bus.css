@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fondo{
+    background-image: url(./carretera\ fondo.jpg);
+    width: 100%;
+    height: 45rem;
+    background-size: contain;
+    background-position: center;    
+}
+.fondoAnimado{
+    
+    animation:fondo 5s linear  infinite;
+}
+.bus{
+    position: absolute;
+    width: 50%;
+    top: 65%;
+    left: 70%;
+    transform: translate(-50%);
+}
+.busAnimado{
+    animation: buse 5s linear infinite;
+
+}
+.llanta1{
+    width: 5%;
+    position: absolute;
+    left: 54%;
+    top: 84.5%;
+    z-index: 1;
+
+  
+}
+.llantasAnimadas{
+    animation: llantes 5s infinite linear reverse;
+}
+
+.llanta3{
+    width: 5%;
+    position: absolute;
+    left:77.5%;
+    top: 84.5%;
+    z-index: 1;
+
+
+}
+
+.llanta2{
+    width:5%;
+    position: absolute;
+    left: 83%;
+    top: 85%;
+    z-index: 1;
+
+}
+
+@keyframes llantes{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes fondo{
+    100%{
+        background-position: 230px;
+
+    }
+}
+
+.humo{
+    width: 105.4px;
+    height: 152px;
+    background-image: url(humonuevo.png);
+    position: absolute ;
+    top: 455px;
+    left: 78rem;
+    z-index:1;
+}
+
+@keyframes humo{
+    100%{
+        background-position-x: 25rem;
+    }
+}
+
+.humoreanimado{
+    animation:humo infinite 1s steps(8) reverse;
+}
+
+.humo{
+    width: 105.4px;
+    height: 152px;
+    background-image: url(humo.png);
+    position: absolute ;
+  top: 380px;
+  left: 80rem;
+  z-index: 1;
+}
+@keyframes humo{
+100%{
+    background-position-x: 25rem;
+}
+}
+.humoanimado{
+    animation: humo infinite 1s steps(9) reverse;
+}
+
+

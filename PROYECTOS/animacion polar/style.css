@@ -1,0 +1,87 @@
+.container{
+    width: 1000px;
+    position: relative;
+}
+#oso2{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 0;
+    left: 450px;
+    cursor: pointer;
+
+    &:hover{
+        filter: drop-shadow(1px 1px 3px rgba(25, 76, 219, 0.651));
+    }
+}
+#pezzz{
+    position: absolute;
+    width: 130px;
+    height: 200;
+    top: 160px;
+    left:400px;
+    cursor: pointer;
+}
+#pinguino18{
+    position: absolute;
+    width: 130px;
+    height: 150px;
+    top: 175px;
+    left: 150px;
+    cursor: pointer;
+}
+.cubo{
+    width: 50px;
+    position: absolute;
+    top: 344px;
+    left: 132px;
+}
+.espina{
+    width: 65px;
+    position: absolute;
+    top: 344px;
+    left: 300px;
+}
+#nube1{
+    animation: nube1 60s linear infinite;
+}
+@keyframes nube1{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(200px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+#nube2{
+    animation: nube1 60s linear infinite;
+}
+@keyframes nube1{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(-300px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.iglu{
+    position: absolute;
+    top: 174px;
+    left: 830px;
+    width: 117px;
+}
+#ig1, #ig2, #ig3, #ig4, #ig5, #ig6, #foca{
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover{
+        transform: rotate(5deg) scale(1.1);
+        filter: drop-shadow(2px 2px 4px rgba(10, 11, 15, 0.541));
+    }
+}
