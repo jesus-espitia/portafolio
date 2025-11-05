@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.contenedorgrande{
+margin: auto;
+background-size: cover;
+position: relative;
+width: 1200px;
+height: 540px;
+
+}
+
+body{
+    background-color: #3B3C58;
+    overflow: hidden;
+}
+
+.FONDO5{
+    position: absolute;
+    margin: 0 auto;
+    background-size: cover;
+    width: 1200px;
+    height: 540px;
+}
+
+.olla{
+width: 127px;
+height: 88px;
+position:absolute;
+left: 515px;
+top: 409px;
+z-index: 1;
+}
+
+.burbujas{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 580px;
+    top: 354px;
+    z-index: 1;
+}
+
+#burbujas{
+    animation: flotar1 3s infinite forwards;
+}
+@keyframes flotar1 {
+    0%{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    15%{
+        opacity: 1;
+    }
+    85%{
+        opacity: 1;
+    }
+    100%{
+    transform: translateY(-55px);
+    opacity: 0;
+    }
+}
+
+.burbujas1{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 525px;
+    top: 350px;
+    z-index: 1;
+}
+
+#burbujas1{
+    animation: flotar 5s infinite forwards;
+}
+@keyframes flotar {
+    0%{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    15%{
+        opacity: 2;
+    }
+    85%{
+        opacity: 3;
+    }
+    100%{
+    transform: translateY(-45px);
+    opacity: 0;
+    }
+}
+
+.burbujas2{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 575px;
+    top: 350px;
+    z-index: 1;
+}
+
+#burbujas2{
+    animation: flotar2 4s infinite forwards;
+}
+@keyframes flotar2 {
+    0%{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    15%{
+        opacity: 1;
+    }
+    85%{
+        opacity: 1;
+    }
+    100%{
+    transform: translateY(-45px);
+    opacity: 0;
+    }
+}
+
+.burbujas3{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 545px;
+    top: 354px;
+    z-index: 1;
+}
+
+#burbujas3{
+    animation: flotar3 2s infinite forwards;
+}
+@keyframes flotar3 {
+    0%{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    15%{
+        opacity: 3;
+    }
+    85%{
+        opacity: 3;
+    }
+    100%{
+    transform: translateY(-33px);
+    opacity: 0;
+    }
+}
+
+.burbujas4{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 550px;
+    top: 324px;
+    z-index: 1;
+}
+
+#burbujas4{
+    animation: flotar4 4s infinite forwards;
+}
+@keyframes flotar4  {
+    0%{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    15%{
+        opacity: 3;
+    }
+    85%{
+        opacity: 3;
+    }
+    100%{
+    transform: translateY(-33px);
+    opacity: 0;
+    }
+}
+
+.burbujas5{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 621px;
+    top: 360px;
+    z-index: 1;
+}
+
+#burbujas5{
+    animation: flotar5 3s infinite forwards;
+}
+@keyframes flotar5  {
+    0%{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    15%{
+        opacity: 3;
+    }
+    85%{
+        opacity: 3;
+    }
+    100%{
+    transform: translateY(-33px);
+    opacity: 0;
+    }
+}
+
+.burbujas6{
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    left: 600px;
+    top: 300px;
+    z-index: 1;
+}
+
+#burbujas6{
+    animation: flotar6 6s infinite forwards;
+}
+@keyframes flotar6  {
+    0%{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    15%{
+        opacity: 3;
+    }
+    85%{
+        opacity: 3;
+    }
+    100%{
+    transform: translateY(-33px);
+    opacity: 0;
+    }
+}
+
+#cuarzoApequeñoo{
+    position:absolute;
+    cursor: pointer;
+    left: 719px;
+    width: 79px;
+    z-index: 1;
+}
+
+#cuarzoApequeño{
+    position:absolute;
+    cursor: pointer;
+    left: 85px;
+    width: 79px;
+    z-index: 1;
+}
+
+#cuarzoApequeño2{
+    position:absolute;
+    cursor: pointer;
+    left: 160px;
+    width: 79px;
+    z-index: 1;
+}
+
+#cuarzoApequeño3{
+    position:absolute;
+    cursor: pointer;   
+    left: 230px;
+    width: 79px;
+    z-index: 1;
+}
+
+#cuarzoApequeño4{
+    position:absolute;
+    cursor: pointer;
+    left: 310px;
+    width: 79px;
+    z-index: 1;
+}
+
+#cuarzoApequeño5{
+    position:absolute;
+    cursor: pointer;
+    left: 390px;
+    width: 79px;
+    z-index: 1;
+}
+
+#cuarzoApequeñoo6{
+    position:absolute;
+    cursor: pointer;
+    left: 460px;
+    width: 79px;
+    z-index: 1;
+}
+
+#cuarzolargoo{
+    position:absolute;
+    cursor: pointer;
+    left: 543px;
+    width: 100px;
+}
+
+#cuarzolargoo1{
+    position:absolute;
+    cursor: pointer;
+    left: 626px;
+    width: 100px;
+}
+
+#cuarzoApequeño21{
+    position:absolute;
+    cursor: pointer;
+    left: 777px;
+    width: 79px;
+}
+
+#cuarzoApequeño22{
+    position:absolute;
+    cursor: pointer;
+    left: 842px;
+    width: 79px;
+}
+
+#cuarzoApequeño23{
+    position:absolute;
+    cursor: pointer;
+    left: 920px;
+    width: 79px;
+}
+
+#cuarzoApequeño24{
+    position:absolute;
+    cursor: pointer;
+    left: 993px;
+    width: 79px;
+}
+
+#cuarzoApequeño25{
+    position:absolute;
+    cursor: pointer;
+    left: 1059px;
+    width: 79px;
+}
+
+#cuarzoApequeño26{
+    position:absolute;
+    cursor: pointer;
+    left: 1132px;
+    width: 79px;
+}
+
+#cuarzoApequeño27{
+    position:absolute;
+    cursor: pointer;
+    left: 12px;
+    width: 79px;
+}
+
+#cuarzoconcaracoll{
+width: 225px;
+height: 187px;
+position:absolute;
+left: 524px;
+cursor: pointer;
+top: 100px;
+}
+
+#cuarzoanchoAbajo1{
+      position:absolute;
+    top: 260px;
+    left: 9px;
+    width: 275px;
+}
+
+#cuarzoanchoAbajoo{
+width: 300px;
+height: 250px;
+position:absolute;
+left: 820px;
+
+top: 210px;
+}
+
+.ursula{
+    width: 107px;
+    height: 226px;
+    position: absolute;
+    left: 732px;
+    top: 300px;
+}
+
+#frasco2{
+    position:absolute;
+    cursor: pointer;
+    left: 363px;
+    width: 79px;
+    top: 340px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

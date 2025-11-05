@@ -1,0 +1,370 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #01427A;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+}
+
+.container {
+    margin:0;
+    width: 1200px;
+    height: 540px;
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.algass {
+    width: 100%;
+    height: 105%;
+    z-index: 100px;
+
+
+}
+
+#algass {
+    width: 1200px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    bottom: 0;
+
+    &:hover {
+        transform: 0.1s;
+        filter: drop-shadow(-1px -1px 1px #9cc1fa);
+    }
+
+}
+
+.rey {
+    width: 100%;
+    height: 105%;
+    right: 2000px;
+
+}
+
+#rey {
+    width: 253px;
+    height: 225px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 0;
+    right: 307px;
+}
+
+.andri {
+    width: 100%;
+    height: 105%;
+    right: 1000px;
+
+}
+
+#andri {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 0;
+    right: 450px;
+}
+
+.castilloo {
+    width: 100%;
+    height: 105%;
+    right: 1000px;
+
+}
+
+#castilloo {
+    width: 453px;
+    height: 350px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 0;
+    right: -67px;
+    overflow: 10px;
+}
+
+
+.pez2 {
+    width: 53px;
+    height: 55px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 0;
+    overflow: 10px;
+    left: 10px;
+    top: 20%;
+}
+
+
+
+#pez2 {
+    animation: pez2 30s linear infinite;
+}
+
+@keyframes pez2 {
+    0% {
+        translate: 0 0;
+        scale: 1 1;
+
+    }
+
+    49% {
+        translate: 1200px 0;
+        scale: 1 1;
+    }
+
+    50% {
+        translate: 1200px 0;
+        scale: -1 1;
+    }
+
+    99% {
+        translate: 0 0;
+        scale: -1 1;
+    }
+
+    100% {
+        translate: 0 0;
+        scale: 1 1;
+    }
+}
+
+
+.pez3 {
+    width: 53px;
+    height: 55px;
+    position: absolute;
+    cursor: pointer;
+    overflow: 10px;
+    left: 10px;
+    top: 10%;
+}
+
+
+
+#pez3 {
+    animation: pez3 40s linear infinite;
+}
+
+@keyframes pez3 {
+    0% {
+        translate: 0 0;
+        scale: 1 1;
+
+    }
+
+    49% {
+        translate: 1200px 0;
+        scale: 1 1;
+    }
+
+    50% {
+        translate: 1200px 0;
+        scale: -1 1;
+    }
+
+    99% {
+        translate: 0 0;
+        scale: -1 1;
+    }
+
+    100% {
+        translate: 0 0;
+        scale: 1 1;
+    }
+}
+
+.pez4 {
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 0;
+    left: 10px;
+}
+
+#pez4 {
+    width: 150px;
+    height: 140px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 0;
+    right: 10px;
+    overflow: 10px;
+    top: 10px;
+}
+
+#pez4{
+    animation: pez4 60s linear infinite;
+}
+
+    @keyframes pez4 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-1100px); 
+    }
+    }
+
+.pez5 {
+    width: 153px;
+    height: 155px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 0;
+    left: 10px;
+}
+
+
+
+#pez5 {
+    width: 253px;
+    height: 245px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 0;
+    left: 50px;
+    overflow: 10px;
+    top: 150px;
+}
+
+#pez5 {
+    animation: pez5 70s linear infinite;
+}
+
+@keyframes pez5 {
+    0% {
+        translate: 0 0;
+        scale: 1 1;
+
+    }
+
+    49% {
+        translate: 1200px 0;
+        scale: 1 1;
+    }
+
+    50% {
+        translate: 1200px 0;
+        scale: -1 1;
+    }
+
+    99% {
+        translate: 0 0;
+        scale: -1 1;
+    }
+
+    100% {
+        translate: 0 0;
+        scale: 1 1;
+    }
+}
+
+
+.pez6 {
+    width: 53px;
+    height: 55px;
+    position: absolute;
+    cursor: pointer;
+    overflow: 10px;
+    left: 20px;
+    top: 30%;
+}
+
+
+
+#pez6 {
+    animation: pez3 20s linear infinite;
+}
+
+@keyframes pez6 {
+    0% {
+        translate: 0 0;
+        scale: 1 1;
+
+    }
+
+    49% {
+        translate: 1200px 0;
+        scale: 1 1;
+    }
+
+    50% {
+        translate: 1200px 0;
+        scale: -1 1;
+    }
+
+    99% {
+        translate: 0 0;
+        scale: -1 1;
+    }
+
+    100% {
+        translate: 0 0;
+        scale: 1 1;
+    }
+}
+
+
+.aqua {
+    width: 100%;
+    height: 105%;
+    right: 1000px;
+
+}
+
+#aqua {
+    width: 210px;
+    height: 205px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 0;
+    right: 950px;
+}
+
+
+.coral {
+    width: 100%;
+    height: 105%;
+    right: 1000px;
+
+}
+
+#coral {
+    width: 200px;
+    height: 190px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 0;
+    right: 730px;
+}
+
+
+.ariel {
+    width: 100%;
+    height: 105%;
+    right: 1000px;
+
+}
+
+#ariel {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 0;
+    right: 580px;
+}

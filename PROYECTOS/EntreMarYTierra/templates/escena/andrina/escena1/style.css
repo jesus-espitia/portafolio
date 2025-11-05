@@ -1,0 +1,191 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #9dc8ed;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.contenedor {
+  top: 20px;
+  overflow: hidden;
+  position: relative;
+  width: 1200px;
+  height: 540px;
+  margin: 0 auto;
+  background-image: url(IMG/fondo1a.svg);
+  background-size: cover;
+}
+
+#unoa{
+    position: absolute;
+    width: 320px;
+    height: 59px;
+    top: 118px;
+    left: 279px;
+    cursor: pointer;
+}
+#dosa{
+    position: absolute;
+    width: 320px;
+    height: 49px;
+    top: 164px;
+    left: 279px;
+    cursor: pointer;
+}
+#tresa{
+    position: absolute;
+    width: 320px;
+    height: 59px;
+    top: 199px;
+    left: 373px;
+    cursor: pointer;
+}
+#cuatroa{
+    position: absolute;
+    width: 268px;
+    height: 106px;
+    top: 181px;
+    left: 423px;
+    cursor: pointer;
+}
+
+#tapete {
+  position: absolute;
+  width: 250px;
+  height: 129px;
+  top: 415px;
+  left: 242px;
+  cursor: pointer;
+}
+
+#andrina {
+  position: absolute;
+  width: 13%;
+  height: 46%;
+  top: 221px;
+  left: 686px;
+  cursor: pointer;
+}
+
+.azul{
+  position: absolute;
+  left: 275px;
+  top: 97px;
+}
+#burbujas{
+  position: absolute;
+    width: 420px;
+    height: 187px;
+    top: 104px;
+    left: 275px;
+}
+
+.invisible-btn {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 3;
+}
+#btn-unoa {
+  top: 129px;
+  left: 536px;
+  width: 63px;
+  height: 43px;
+}
+#btn-dosa {
+  top: 164px;
+  left: 279px;
+  width: 63px;
+  height: 43px;
+}
+#btn-tresa {
+  top: 199px;
+  left: 373px;
+  width: 63px;
+  height: 43px;
+}
+#btn-cuatroa {
+  top: 228px;
+  left: 581px;
+  width: 71px;
+  height: 53px;
+}
+
+#btn-tapete {
+  top: 438px;
+  left: 279px;
+  width: 249px;
+  height: 83px;
+}
+
+#btn-andrina {
+  top: 305px;
+  left: 713px;
+  width: 100px;
+  height: 135px;
+}
+
+.puerta {
+  position: absolute;
+  top: 6px;
+  left: 1px;
+  width: 1200px;
+  height: 605px;
+  transform-origin: left center;
+  opacity: 0;
+  transition: transform 1s ease, opacity 1s ease;
+}
+
+.puerta.visible {
+  opacity: 1;
+}
+
+.puerta.abierta {
+  transform: rotateY(80deg);
+}
+
+#btn-puerta {
+  position: absolute;
+  top: 115px;
+  left: 0px;
+  width: 100px;
+  height: 340px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.luz-rayos {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1200px;
+  height: 540px;
+  opacity: 0;
+  transition: opacity 1s ease;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.overlay-noche {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1200px;
+  height: 540px;
+  background-color: rgba(10, 10, 30, 0.6);
+  opacity: 0;
+  transition: opacity 1s ease;
+  pointer-events: none;
+  z-index: 2;
+}
+
+body.modo-noche #burbujas {
+  filter: brightness(0.6) hue-rotate(180deg);
+}

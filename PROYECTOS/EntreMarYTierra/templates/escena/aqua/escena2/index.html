@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <audio src="narrador.mp3" id="narrador"></audio>
+    <audio src="rumbo.mp3" id="rumbo"></audio>
+    <div class="container">
+
+          <div id="aqua2"></div>
+      <img class="pez2" id="pez2" src="pez2.svg" alt="" />
+      <img class="pez3" id="pez3" src="pez3.svg" alt="" />
+      <img class="pez6" id="pez6" src="pez6.svg" alt="" />
+      <img class="pez7" id="pez7" src="pez7.svg" alt="" />
+
+      <div id="estatua"></div>
+      <div id="aqua"></div>
+      <div id="cangrejo"></div>
+      <div id="pez4"></div>
+      <div id="roca"></div>
+
+              <button class="invisible-btn" id="btn-pirotecnia"></button>
+    </div>
+
+    <script src="js/lottie.min.js"></script>
+
+    <script>
+      var audinarra = document.getElementById(narrador);
+      var audimar = document.getElementById(rumbo);
+
+
+
+      const pez2 = document.getElementById("pez2");
+      let colorpez2 = 1;
+      pez2.addEventListener("click", function () {
+        if (colorpez2 == 1) {
+          pez2.style.filter = "hue-rotate(132deg)";
+          colorpez2 = 2;
+        } else if (colorpez2 == 2) {
+          pez2.style.filter = "hue-rotate(0deg)";
+          colorpez2 = 1;
+        }
+      });
+
+      const pez3 = document.getElementById("pez3");
+      let colorpez3 = 1;
+      pez3.addEventListener("click", function () {
+        if (colorpez3 == 1) {
+          pez3.style.filter = "hue-rotate(40deg)";
+          colorpez3 = 2;
+        } else if (colorpez3 == 2) {
+          pez3.style.filter = "hue-rotate(0deg)";
+          colorpez3 = 1;
+        }
+      });
+
+      const pez6 = document.getElementById("pez6");
+      let colorpez6 = 1;
+      pez6.addEventListener("click", function () {
+        if (colorpez6 == 1) {
+          pez6.style.filter = "hue-rotate(71deg)";
+          colorpez6 = 2;
+        } else if (colorpez6 == 2) {
+          pez6.style.filter = "hue-rotate(0deg)";
+          colorpez6 = 1;
+        }
+      });
+
+      const pez7 = document.getElementById("pez7");
+      let colorpez7 = 1;
+      pez6.addEventListener("click", function () {
+        if (colorpez7 == 1) {
+          pez7.style.filter = "hue-rotate(267deg)";
+          colorpez7 = 2;
+        } else if (colorpez7 == 2) {
+          pez7.style.filter = "hue-rotate(0deg)";
+          colorpez7 = 1;
+        }
+      });
+
+      function crearBurbuja() {
+        const burbuja = document.createElement("div");
+        burbuja.classList.add("burbuja");
+
+        const tamaño = Math.random() * 30 + 10;
+        burbuja.style.width = `${tamaño}px`;
+        burbuja.style.height = `${tamaño}px`;
+        burbuja.style.left = `${Math.random() * window.innerWidth}px`;
+        burbuja.style.animationDuration = `${Math.random() * 5 + 4}s`;
+
+        document.body.appendChild(burbuja);
+
+        setTimeout(() => {
+          burbuja.remove();
+        }, 9000);
+      }
+
+      setInterval(crearBurbuja, 300);
+
+      const pez4 = lottie.loadAnimation({
+        container: document.getElementById("pez4"),
+        renderer: "svg",
+        loop: false,
+        autoplay: false,
+        path: "pez4.json",
+      });
+
+      pez4.addEventListener("DOMLoaded", function () {
+        pez4.goToAndStop(0, true);
+      });
+
+      document.getElementById("pez4").addEventListener("click", function () {
+        pez4.stop();
+        pez4.play();
+        rumbo.play();
+      });
+
+
+
+    
+          const estatua =lottie.loadAnimation({
+        container:document.getElementById("estatua"),
+        renderer: "svg",
+        loop: false ,
+        autoplay: false ,
+        path: "estatua.json"
+    })
+
+
+            estatua.addEventListener("DOMLoaded", function (){
+      estatua.goToAndStop(0, true)
+    })
+
+
+    document.getElementById("pez4").addEventListener("click", function(){
+      estatua.stop()
+      estatua.play()
+    })
+    
+
+
+
+
+      const roca = lottie.loadAnimation({
+        container: document.getElementById("roca"),
+        renderer: "svg",
+        loop: false,
+        autoplay: false,
+        path: "roca.json",
+      });
+
+      roca.addEventListener("DOMLoaded", function () {
+        roca.goToAndStop(0, true);
+      });
+
+      document.getElementById("roca").addEventListener("click", function () {
+        roca.stop();
+        roca.play();
+      });
+
+
+    
+
+      const cangrejo = lottie.loadAnimation({
+        container: document.getElementById("cangrejo"),
+        renderer: "svg",
+        loop: false,
+        autoplay: false,
+        path: "cangrejo.json",
+      });
+
+      cangrejo.addEventListener("DOMLoaded", function () {
+        cangrejo.goToAndStop(0, true);
+      });
+
+      document
+        .getElementById("cangrejo")
+        .addEventListener("click", function () {
+          cangrejo.stop();
+          cangrejo.play();
+        });
+
+
+        const aqua2 =lottie.loadAnimation({
+        container:document.getElementById("aqua2"),
+        renderer: "svg",
+        loop: false ,
+        autoplay: false ,
+        path: "aqua2.json"
+    })
+
+    aqua2.addEventListener("DOMLoaded", function (){
+    aqua2.goToAndStop(0, true)
+    })
+
+    document.getElementById("aqua2").addEventListener("click", function(){
+    aqua2.stop()
+    aqua2.play()
+    })
+
+
+        
+    </script>
+  </body>
+</html>

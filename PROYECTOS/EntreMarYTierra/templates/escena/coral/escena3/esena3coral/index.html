@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Coral</title>
+</head>
+<body>
+    <div class="contenedor">
+<!-- Bandera -->
+<div class="bandera" id="bandera"></div>
+
+<!-- Luna -->
+<div class="luna" id="luna"></div>
+
+<!-- Estrellas -->
+<div class="estrella" style="top:20%; left:30%;"></div>
+<div class="estrella" style="top:25%; left:60%;"></div>
+<div class="estrella" style="top:40%; left:50%;"></div>
+<div class="estrella" style="top:15%; left:70%;"></div>
+
+
+   <!-- Botones invisibles -->
+<button class="invisible-btn" id="btn-cangrejo"></button>
+<button class="invisible-btn" id="btn-castillo"></button>
+
+<div id="cangrejo"></div>
+<div id="castillo"></div>
+<div id="nubes"></div>
+<div id="ariel"></div>
+
+
+<div id="personaje">
+    <img src="IMG/muñeco.png" alt="">
+</div>
+
+<div id="puerta">
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 116.8 118.4" style="enable-background:new 0 0 116.8 118.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#BAA183;stroke:#070807;stroke-width:1.023;stroke-miterlimit:10;}
+</style>
+<g id="seis">
+	<rect x="67" y="72.8" class="st0" width="44.9" height="42.1"/>
+</g>
+<g id="cinco">
+	<rect x="3.3" y="72.4" class="st0" width="63.8" height="42.5"/>
+</g>
+<g id="cuatro">
+	<path class="st0" d="M111.9,70.4v2.2h-78V34.8h70.8C109.2,45.2,111.9,57.4,111.9,70.4z"/>
+</g>
+<g id="tres">
+	<path class="st0" d="M10.5,34.8h23.3v37.8H3.3v-2.2C3.3,57.4,5.9,45.2,10.5,34.8z"/>
+</g>
+<g id="dos">
+	<path class="st0" d="M105,34.8H67.4V3.2C78.6,5.5,88.7,12,96.4,21.3C99.7,25.3,102.6,29.8,105,34.8z"/>
+</g>
+<g id="uno">
+	<path class="st0" d="M67.4,3.3v31.5H11c5.4-11.2,13.5-20.2,23.3-25.9C41.4,4.7,49.5,2.3,58,2.3C61.2,2.3,64.4,2.6,67.4,3.3z"/>
+</g>
+</svg>
+
+</div>
+
+
+
+    </div>
+
+    <script>
+                
+        const ariel =lottie.loadAnimation({
+        container:document.getElementById("ariel"),
+        renderer: "svg",
+        loop: false ,
+        autoplay: false ,
+        path: "ariel.json"
+    })
+
+    ariel.addEventListener("DOMLoaded", function (){
+    ariel.goToAndStop(0, true)
+    })
+
+    document.getElementById("ariel").addEventListener("click", function(){
+    ariel.stop()
+    ariel.play()
+    })
+
+    </script>
+  <script src="lottie.min.js"></script>
+  <script src="style.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.contenedorPadre{
+margin: auto;
+background-size: cover;
+position: relative;
+width: 1200px;
+height: 540px;
+
+}
+
+body{
+    background-color: #BED4E5;
+    overflow: hidden;
+}
+
+.fondotreslisto{
+    position: relative;
+    margin: 0 auto;
+    background-size: cover;
+    width: 1200px;
+    height: 540px;
+  left: 0;
+    top: 8px;
+}
+
+.almohada1{
+width: 102px;
+height: 183px;
+position:absolute;
+left: 653px;
+top: 261px;
+cursor: pointer;
+}
+
+.almohada2{
+    width: 102px;
+height: 183px;
+position:absolute;
+left: 541px;
+top: 262px;
+cursor: pointer;
+}
+
+#aribalampara12{
+width: 238px;
+height: 124px;
+position:absolute;
+left: 523px;
+top: 71px;
+cursor: pointer;
+}
+
+.lamparanormal1{
+    width: 118px;
+height: 87px;
+position:absolute;
+left: 365px;
+top: 289px;
+cursor: pointer;
+}
+
+#lamparanormal2{
+    width: 118px;
+height: 87px;
+position:absolute;
+left: 815px;
+top: 289px;
+cursor: pointer;
+}
+
+#tridente12{
+width: 281px;
+height: 363px;
+position:absolute;
+left: 98px;
+top: 66px;
+cursor: pointer;
+}
+
+#puerta{
+    width: 150px;
+height: 387px;
+position:absolute;
+left: -24px;
+top: 116px;
+cursor: pointer;
+}
+
+#esfera1{
+    width: 137px;
+height: 35px;
+position:absolute;
+left: 1007px;
+top: 118px;
+cursor: pointer;
+}
+
+#esfera2{
+width: 137px;
+height: 35px;
+position:absolute;
+left: 1075px;
+top: 118px;
+cursor: pointer;
+}
+
+

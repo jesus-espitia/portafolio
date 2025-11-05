@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mar & Tierra - Contacto</title>
+    <link rel="ico" href="../static/img/ico/colas.png">
+    <link rel="stylesheet" href="../static/css/contacto.css">
+</head>
+<body>
+    <!-- Header con navegación -->
+    <header>
+        <div class="logo">
+            <h1>Mar & Tierra</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="personajes.html">Personajes</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="tienda.html">Tiendita</a></li>
+                <li><a href="contacto.html" class="active">Contacto</a></li>
+                <li><a href="login.html" id="login-btn">Iniciar Sesión</a></li>
+                <li><a href="registro.html" id="register-btn">Registrarse</a></li>
+                <li><a href="#" id="logout-btn" style="display: none;">Cerrar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de contacto -->
+    <section class="contacto">
+        <h2>Contacto</h2>
+        <div class="contacto-container">
+            <div class="contacto-info">
+                <h3>Información de Contacto</h3>
+                <p><strong>Dirección:</strong> Calle del Océano 123, Ciudad Marítima</p>
+                <p><strong>Teléfono:</strong> +123 456 7890</p>
+                <p><strong>Email:</strong> info@marytierra.com</p>
+                <div class="social-icons">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                </div>
+            </div>
+            <div class="contacto-form">
+                <h3>Envíanos un Mensaje</h3>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Asunto:</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Mar & Tierra. Todos los derechos reservados.</p>
+            <div class="social-icons">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../static/js/script.js"></script>
+    <script src="../static/js/lottie.min.js"></script>
+</body>
+</html>

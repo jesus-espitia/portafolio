@@ -1,0 +1,215 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.contenedor{
+margin: auto;
+background-size: cover;
+position: relative;
+width: 1200px;
+height: 540px;
+
+}
+
+body{
+    background-color: rgb(113, 43, 226);
+    overflow: hidden;
+}
+
+.fondolisto{
+    position: relative;
+    margin: 0 auto;
+    background-size: cover;
+    width: 1200px;
+    height: 540px;
+    left: 0;
+    top: 8px;
+}
+
+.pulpito{
+width: 219px;
+height: 177px;
+position:absolute;
+left: 500px;
+top: 179px;
+cursor: pointer;
+}
+
+#frasco1{
+    position:absolute;
+    cursor: pointer;
+    bottom: 228px;
+    left: 25px;
+    width: 79px;
+}
+
+#frasco2{
+    position:absolute;
+    cursor: pointer;
+    bottom: 228px;
+    left: 90px;
+    width: 79px;
+}
+
+#frasco3{
+    position:absolute;
+    cursor: pointer;
+    bottom: 228px;
+    left: 150px;
+    width: 79px;
+}
+
+#frasco4{
+    position:absolute;
+    cursor: pointer;
+    bottom: 115px;
+    left: 25px;
+    width: 79px;
+}
+
+#frasco5{
+    position:absolute;
+    cursor: pointer;
+    bottom: 115px;
+    left: 90px;
+    width: 79px;
+}
+
+#frasco6{
+    position:absolute;
+    cursor: pointer;
+    bottom: 115px;
+    left: 157px;
+    width: 79px;
+}
+
+#frasco7{
+    position:absolute;
+    cursor: pointer;
+    bottom: 10px;
+    left: 23px;
+    width: 79px;
+}
+
+#frasco8{
+    position:absolute;
+    cursor: pointer;
+    bottom: 10px;
+    left: 155px;
+    width: 79px;
+}
+
+#frasco9{
+    position:absolute;
+    cursor: pointer;
+    bottom: 10px;
+     left: 90px;
+    width: 79px;
+}
+
+#bolitaesfera{
+    position:absolute;
+    cursor: pointer;
+    bottom: 53px;
+     left: 575px;
+    width: 93px;
+}
+
+.dick3{
+    position:absolute;
+    cursor: pointer;
+    bottom: 90px;
+    left: 580px;
+    width: 78px;
+}
+
+#frasco11{
+     position:absolute;
+    cursor: pointer;
+    bottom: 13px;
+     left: 955px;
+    width: 79px;
+}
+
+#frasco12{
+     position:absolute;
+    cursor: pointer;
+    bottom: 13px;
+     left: 1028px;
+    width: 79px;
+}
+
+#frasco13{
+     position:absolute;
+    cursor: pointer;
+    bottom: 13px;
+     left: 1089px;
+    width: 79px;
+}
+
+#frasco14{
+     position:absolute;
+    cursor: pointer;
+    bottom: 115px;
+     left: 960px;
+    width: 79px;
+}
+
+#frasco15{
+     position:absolute;
+    cursor: pointer;
+    bottom: 115px;
+     left: 1029px;
+    width: 79px;
+}
+
+#frasco16{
+     position:absolute;
+    cursor: pointer;
+    bottom: 115px;
+     left: 1095px;
+    width: 79px;
+}
+
+#frasco17{
+     position:absolute;
+    cursor: pointer;
+    bottom: 228px;
+     left: 1090px;
+    width: 79px;
+}
+
+#frasco18{
+     position:absolute;
+    cursor: pointer;
+    bottom: 228px;
+     left: 1020px;
+    width: 79px;
+}
+
+#frasco19{
+     position:absolute;
+    cursor: pointer;
+    bottom: 228px;
+     left: 955px;
+    width: 79px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

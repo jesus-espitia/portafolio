@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Andrina</title>
+</head>
+<body>
+<div class="contenedor">
+   <!-- Botones invisibles -->
+<button class="invisible-btn" id="btn-concha"></button>
+<button class="invisible-btn" id="btn-conchita"></button>
+<button class="invisible-btn" id="btn-cangrejo"></button>
+<button class="invisible-btn" id="btn-algas"></button>
+<button class="invisible-btn" id="btn-personaje"></button>
+
+<div id="concha"></div>
+<div id="conchita"></div>
+<div class="burbujas"></div>
+<div id="cangrejo"></div>
+<div id="algas"></div>
+<div id="ariel"></div>
+<div id="coral"></div>
+        <div class="ursula" id="ursula"></div>
+<div id="personaje"></div>
+
+</div>
+  <script src="lottie.min.js"></script>
+
+<script>
+
+        const ariel =lottie.loadAnimation({
+        container:document.getElementById("ariel"),
+        renderer: "svg",
+        loop: false ,
+        autoplay: false ,
+        path: "ariel.json"
+    })
+
+    ariel.addEventListener("DOMLoaded", function (){
+    ariel.goToAndStop(0, true)
+    })
+
+    document.getElementById("ariel").addEventListener("click", function(){
+    ariel.stop()
+    ariel.play()
+    })
+
+            const coral =lottie.loadAnimation({
+        container:document.getElementById("coral"),
+        renderer: "svg",
+        loop: false ,
+        autoplay: false ,
+        path: "coral.json"
+    })
+
+    coral.addEventListener("DOMLoaded", function (){
+    coral.goToAndStop(0, true)
+    })
+
+    document.getElementById("coral").addEventListener("click", function(){
+    coral.stop()
+    coral.play()
+    })
+
+        const ursula= lottie.loadAnimation({
+            container: document.getElementById("ursula"),
+            renderer: "svg",
+            loop: true,
+            autoplay: true,
+            path: "ursula.json"
+            })
+            
+
+			ursula.addEventListener("DOMLoaded", function(){
+				ursula.goToAndStop(0,true)
+			})
+
+			document.getElementById("ursula").addEventListener("click", function(){
+				ursula.stop()
+				ursula.play()
+			
+	})
+
+</script>
+
+
+
+  <script src="style.js"></script>
+</body>
+</html>

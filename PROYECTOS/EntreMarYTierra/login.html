@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mar & Tierra - Iniciar Sesión</title>
+    <link rel="icon" href="static/img/ico/colas.png">
+    <link rel="stylesheet" href="static/css/login.css">
+</head>
+<body>
+    <!-- Header con navegación -->
+    <header>
+        <div class="logo">
+            <h1>Mar & Tierra</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="login.html" class="active" id="login-btn">Iniciar Sesión</a></li>
+                <li><a href="registro.html" id="register-btn">Registrarse</a></li>
+                <li><a href="#" id="logout-btn" style="display: none;">Cerrar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de inicio de sesión -->
+    <section class="auth-section">
+        <div class="auth-container">
+            <h2>Iniciar Sesión</h2>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="login-email">Email:</label>
+                    <input type="email" id="login-email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Contraseña:</label>
+                    <input type="password" id="login-password" name="password" required>
+                </div>
+                <button type="submit" class="btn-submit">Iniciar Sesión</button>
+                <p class="auth-message" id="login-message"></p>
+            </form>
+            <p class="auth-link">¿No tienes una cuenta? <a href="registro.html">Regístrate aquí</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Mar & Tierra. Todos los derechos reservados.</p>
+            <div class="social-icons">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="static/js/script.js"></script>
+</body>
+</html>

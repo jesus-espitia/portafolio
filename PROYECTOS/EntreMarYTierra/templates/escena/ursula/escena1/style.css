@@ -1,0 +1,623 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color:#01312D;
+    overflow: hidden;
+}
+.contenedor{
+    position: relative;
+    margin: 0 auto;
+    background-size: cover;
+    position: relative;
+    width: 1200px;
+    height: 540px;
+    background-image: url(IMG/fondo\ 1.svg);
+}
+
+
+.arbol1{
+    width: 100%;
+    height: 105%;
+    z-index: 100px
+}
+
+
+#arbol1{
+    position: absolute;
+    width: 419px;
+    height: 371px;
+    left: 738px;
+    bottom: -0%;
+    cursor: pointer;
+
+    &:hover{
+        filter: drop-shadow(1px 1px 3px rgba(25, 76, 219, 0.651));
+    }
+}
+
+
+
+.arbol2{
+    width: 100%;
+    height: 105%;
+    z-index: 100px
+}
+
+
+
+.murito{
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+#arbol2{
+    position: absolute;
+    width: 419px;
+    height: 371px;
+    left: -50px;
+    bottom: -0%;
+    cursor: pointer;
+    transition: transform 0.3s;
+
+    &:hover{
+        filter: drop-shadow(1px 1px 3px rgba(25, 76, 219, 0.651));
+        
+    }
+}
+
+
+    #pezmorado0 {
+    position: absolute;
+    top: 1px; /* Ajusta según dónde quieras colocarlos verticalmente */
+    right: 0px; /* empieza fuera de la pantalla a la derecha */
+    width: 708px;
+    height: 157px;
+    animation: nadar 8s linear forwards;
+    transform: scaleX(-1);
+    
+}
+
+ 
+#rey{
+    width: 188px;
+    height: 170px;
+    position:absolute;
+    cursor: pointer;
+    bottom: 0;
+    left: 570px;
+}
+
+#concha1{
+    width: 7%;
+    height: 89px;
+    position:absolute;
+    cursor: pointer;
+    bottom: 0;
+    left: 232px;
+}
+
+#concha2{
+    width: 7%;
+    height: 89px;
+    position:absolute;
+    cursor: pointer;
+    bottom: 0;
+    left: 58px;
+}
+
+#concha3{
+    width: 9%;
+    height: 89px;
+    position:absolute;
+    cursor: pointer;
+    bottom: 0;
+    left: 412px;
+}
+
+#concha4{
+    width: 7%;
+    height: 80px;
+    position:absolute;
+    cursor: pointer;
+    bottom: 0;
+    left: 914px;
+}
+
+#ursula{
+    width: 150px;
+    height: 145px;
+    position:absolute;
+    cursor: pointer;
+    bottom: 14px;
+    left: 497px;
+}
+
+#esfera{
+    width: 150px;
+    height: 145px;
+    position:absolute;
+    cursor: pointer;
+    bottom: 14px;
+    left: 497px;
+}
+
+#esfera{
+    position: absolute;
+    width: 49px;
+    height: 940px;
+    left: 111px;
+    bottom: 0%;
+    cursor: pointer;
+    }
+
+    .esfera{
+    width: 100%;
+    height: 105%;
+    z-index: 100px
+}
+
+#pezamarillo0nv{
+    width: 540px;
+    height: 116px;
+    position:absolute;
+    cursor: pointer;
+    bottom: 278px;
+    left: 131px;
+}
+
+#pezamarillo1nv{
+    width: 483px;
+    height: 91px;
+    position:absolute;
+    cursor: pointer;
+    bottom: 245px;
+    left: 524px;
+}
+
+#pezamarillo2nv{
+    width: 595px;
+    height: 109px;
+    position:absolute;
+    cursor: pointer;
+    bottom: 164px;
+    left: 318px;
+}
+
+#planta1{
+    position: absolute;
+    width: 81px;
+    height: 69px;
+    left: 274px;
+    bottom: 25%;
+    cursor: pointer;
+}
+
+#planta2{
+    position: absolute;
+    width: 81px;
+    height: 69px;
+    left: 402px;
+    bottom: 22%;
+    cursor: pointer;
+}
+
+
+#burbuja1{
+    animation: flotar1 3s infinite forwards;
+    width: 41px;
+    height: 43px;
+    position: relative;
+    bottom: 242px;
+    left: 570px;
+}
+@keyframes flotar1 {
+    0%{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    15%{
+        opacity: 1;
+    }
+    85%{
+        opacity: 1;
+    }
+    100%{
+    transform: translateY(-55px);
+    opacity: 0;
+}
+    }
+
+ #burbuja2{
+    animation: flotar2 4s infinite forwards;
+    width: 58px;
+    height: 49px;
+    position: relative;
+    bottom: 319px;
+    left: 749px;
+}
+
+@keyframes flotar2 {
+    0%{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    15%{
+        opacity: 1;
+    }
+    85%{
+        opacity: 1;
+    }
+    100%{
+    transform: translateY(-55px);
+    opacity: 0;
+}
+    }
+
+
+    #burbuja3{
+    animation: flotar3 7s infinite forwards;
+    width: 38px;
+    height: 25px;
+    position: relative;
+    bottom: 430px;
+    left: 749px;
+}
+
+@keyframes flotar3 {
+    0%{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    15%{
+        opacity: 1;
+    }
+    85%{
+        opacity: 1;
+    }
+    100%{
+    transform: translateY(-66px);
+    opacity: 0;
+}
+    }
+
+     #burbuja4{
+    animation: flotar4 7s infinite forwards;
+    width: 39px;
+    height: 30px;
+    position: relative;
+    bottom: 406px;
+    left: 489px;
+}
+
+@keyframes flotar4 {
+    0%{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    15%{
+        opacity: 1;
+    }
+    85%{
+        opacity: 1;
+    }
+    100%{
+    transform: translateY(-66px);
+    opacity: 0;
+}
+    }
+
+    #burbuja5{
+    animation: flotar5 8s infinite forwards;
+    width: 30px;
+    height: 35px;
+    position: relative;
+    bottom: 368px;
+    left: 256px;
+}
+
+@keyframes flotar5 {
+    0%{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    15%{
+        opacity: 1;
+    }
+    85%{
+        opacity: 1;
+    }
+    100%{
+    transform: translateY(-69px);
+    opacity: 0;
+}
+    }
+
+      #burbuja6{
+    animation: flotar6 4s infinite forwards;
+    width: 30px;
+    height: 35px;
+    position: relative;
+    bottom: 329px;
+    left: 313px;
+}
+
+@keyframes flotar6 {
+    0%{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    15%{
+        opacity: 1;
+    }
+    85%{
+        opacity: 1;
+    }
+    100%{
+    transform: translateY(-69px);
+    opacity: 0;
+}
+    }
+
+      #burbuja7{
+    animation: flotar7 5s infinite forwards;
+    width: 45px;
+    height: 56px;
+    position: relative;
+    bottom: 359px;
+    left: 42px;
+}
+
+@keyframes flotar7 {
+    0%{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    15%{
+        opacity: 1;
+    }
+    85%{
+        opacity: 1;
+    }
+    100%{
+    transform: translateY(-39px);
+    opacity: 0;
+}
+    }
+
+     #burbuja8{
+    animation: flotar8 10s infinite forwards;
+    width: 31px;
+    height: 29px;
+    position: relative;
+    bottom: 243px;
+    left: 57px;
+}
+
+@keyframes flotar8 {
+    0%{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    15%{
+        opacity: 1;
+    }
+    85%{
+        opacity: 1;
+    }
+    100%{
+    transform: translateY(-39px);
+    opacity: 0;
+}
+    }
+
+    #burbuja9{
+    animation: flotar9 6s infinite forwards;
+    width: 27px;
+    height: 23px;
+    position: relative;
+    bottom: 485px;
+    left: -47px;
+}
+
+@keyframes flotar9 {
+    0%{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    15%{
+        opacity: 1;
+    }
+    85%{
+        opacity: 1;
+    }
+    100%{
+    transform: translateY(-39px);
+    opacity: 0;
+}
+    }
+
+     #burbuja10{
+    animation: flotar10 4s infinite forwards;
+    width: 27px;
+    height: 23px;
+    position: relative;
+    bottom: 485px;
+    left: 30px;
+}
+
+@keyframes flotar10 {
+    0%{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    15%{
+        opacity: 1;
+    }
+    85%{
+        opacity: 1;
+    }
+    100%{
+    transform: translateY(-49px);
+    opacity: 0;
+}
+    }
+
+     #burbuja11{
+    animation: flotar11 8s infinite forwards;
+    width: 27px;
+    height: 23px;
+    position: relative;
+    bottom: 433px;
+    left: 353px;
+}
+
+@keyframes flotar11 {
+    0%{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    15%{
+        opacity: 1;
+    }
+    85%{
+        opacity: 1;
+    }
+    100%{
+    transform: translateY(-43px);
+    opacity: 0;
+}
+    }
+
+         #burbuja12{
+    animation: flotar12 3s infinite forwards;
+    width: 67px;
+    height: 28px;
+    position: relative;
+    bottom: 365px;
+    left: 494px;
+}
+
+@keyframes flotar12 {
+    0%{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    15%{
+        opacity: 1;
+    }
+    85%{
+        opacity: 1;
+    }
+    100%{
+    transform: translateY(-43px);
+    opacity: 0;
+}
+    }
+
+    #burbuja13{
+    animation: flotar13 6s infinite forwards;
+    width: 30px;
+    height: 35px;
+    position: relative;
+    bottom: 305px;
+    left: 380px;
+}
+
+@keyframes flotar13 {
+    0%{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    15%{
+        opacity: 1;
+    }
+    85%{
+        opacity: 1;
+    }
+    100%{
+    transform: translateY(-20px);
+    opacity: 0;
+}
+    }
+
+       #burbuja14{
+    animation: flotar14 9s infinite forwards;
+    width: 30px;
+    height: 35px;
+    position: relative;
+    bottom: 237px;
+    left: 148px;
+}
+
+@keyframes flotar14 {
+    0%{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    15%{
+        opacity: 1;
+    }
+    85%{
+        opacity: 1;
+    }
+    100%{
+    transform: translateY(-40px);
+    opacity: 0;
+}
+    }
+
+    #burbuja15{
+    animation: flotar15 3s infinite forwards;
+    width: 41px;
+    height: 43px;
+    position: relative;
+    bottom: 444px;
+    left: 425px;
+}
+@keyframes flotar15 {
+    0%{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    15%{
+        opacity: 1;
+    }
+    85%{
+        opacity: 1;
+    }
+    100%{
+    transform: translateY(-55px);
+    opacity: 0;
+}
+    }
+
+     #burbuja16{
+    animation: flotar16 3s infinite forwards;
+    width: 41px;
+    height: 43px;
+    position: relative;
+    bottom: 309px;
+    left: -400px;
+}
+@keyframes flotar16 {
+    0%{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    15%{
+        opacity: 1;
+    }
+    85%{
+        opacity: 1;
+    }
+    100%{
+    transform: translateY(-55px);
+    opacity: 0;
+}
+    }

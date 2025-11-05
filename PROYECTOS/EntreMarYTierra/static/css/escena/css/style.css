@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.aquacolor{
+    background-color: #01427A;
+}
+
+
+.liamcolor{
+    background-color: #6eadec;
+}
+
+.ursulacolor{
+    background-color:rgb(1, 49, 45);
+}
+
+
+.container{
+    background-color: rgb(203, 253, 253);
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    gap: 50px;
+}
+
+.container img{
+    width: 50px;
+}
+
+
+.burbuja {
+    position: absolute;
+    bottom: -50px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    pointer-events: none;
+    animation: subir 8s linear infinite;
+}
+
+@keyframes subir {
+    0% {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-120vh) scale(1.5);
+        opacity: 0;
+    }
+}
+/* interfaz personaje1 */
+
+.container-big{
+    width:100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0%;
+
+}
+
+.contenedor-p1{
+width: 1200px;
+height: 540px;
+margin: 50px auto;
+position: relative;
+
+
+}
+
+.btn-Siguiente{
+    position: absolute;
+    right:0 ;
+    bottom: -45px;
+    border: 0;
+    background: none;
+    width: 38px;
+
+}
+
+.btn-Siguiente img{
+    width: 100%;
+}
+
+.btn-Anterior{
+    position: absolute;
+    left:1100px ;
+    bottom: -45px;
+    border: 0;
+    background: none;
+    width: 38px;
+}
+
+.btn-Anterior img{
+    width: 100%;
+}
+
+
+.btn-inicio{
+    position: absolute;
+    left:-5px ;
+    bottom:-50px;
+    border: 0;
+    background: none;
+    width: 38px;
+}
+
+
+.btn-inicio img{
+        width: 100%;
+}
+
+
+.btnAudio{
+    position: absolute;
+    left:-49px;
+    top: 50px;
+    border: 0;
+    background: none;
+    width: 30px;
+    z-index: 2;
+}
+
+.btnAudio img{
+    width: 100%;
+}
+
+.btn-info{
+    position: absolute;
+    left: -50px;
+    top: 0;
+    border: 0;
+    background: none;
+    width: 32px;
+    z-index: 2;
+}
+.btn-info img{
+    width: 100%;
+}
+
+.btn-Texto{
+    position: absolute;
+    left: 6px;
+    top: 10px;
+    border: 0;
+    background: none;
+    width: 25px;
+    z-index: 2;
+}
+.btn-Texto img{
+    width: 100%;
+}
+
+
+
+
+iframe{
+    width:100% ;
+    height:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.parrafos{
+    width: 80%;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    background-color: rgb(206, 217, 255);
+}

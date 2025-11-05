@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+  
+    <audio src="narrador.mp3" id="narrador"></audio>
+    <audio src="rumbo.mp3" id="rumbo"></audio>
+    <div class="container">
+    <img class="pez2" id="pez2" src="pez2.svg" alt="">
+        <img class="pez3" id="pez3" src="pez3.svg" alt="">
+        <img class="pez6" id="pez6" src="pez6.svg" alt="">
+        <div id="algass"></div>
+        <div id="rey"></div>
+        <div id="andri"></div>
+        <div id="ariel"></div>
+        <div id="castilloo"></div>
+                <div id="aqua"></div>
+                        <div id="coral"></div>
+        <div id="pez4"></div>
+        <div id="pez5"></div>
+
+    </div>
+
+    <script src="js/lottie.min.js"></script>
+
+    <script>
+
+            var audinarra = document.getElementById(narrador)
+            var audimar = document.getElementById(rumbo)
+
+    const algass =lottie.loadAnimation({
+        container:document.getElementById("algass"),
+        renderer: "svg",
+        loop: false ,
+        autoplay: false ,
+        path: "algass.json"
+    })
+
+    algass.addEventListener("DOMLoaded", function (){
+    algass.goToAndStop(0, true)
+    })
+
+    document.getElementById("algass").addEventListener("click", function(){
+    algass.stop()
+    algass.play()
+    })
+
+
+    const rey =lottie.loadAnimation({
+        container:document.getElementById("rey"),
+        renderer: "svg",
+        loop: false,
+        autoplay: false ,
+        path: "rey.json"
+    })
+
+    rey.addEventListener("DOMLoaded", function (){
+    rey.goToAndStop(0, true)
+    })
+
+    document.getElementById("rey").addEventListener("click", function(){
+    rey.stop()
+    rey.play()
+    })
+
+
+
+
+    const andri =lottie.loadAnimation({
+        container:document.getElementById("andri"),
+        renderer: "svg",
+        loop: false,
+        autoplay: false ,
+        path: "andri.json"
+    })
+
+    andri.addEventListener("DOMLoaded", function (){
+    andri.goToAndStop(0, true)
+    })
+
+    document.getElementById("andri").addEventListener("click", function(){
+    andri.stop()
+    andri.play()
+    })
+
+
+
+            const castilloo =lottie.loadAnimation({
+        container:document.getElementById("castilloo"),
+        renderer: "svg",
+        loop: false ,
+        autoplay: false ,
+        path: "castilloo.json"
+    })
+
+    castilloo.addEventListener("DOMLoaded", function (){
+    castilloo.goToAndStop(0, true)
+    })
+
+    document.getElementById("castilloo").addEventListener("click", function(){
+    castilloo.stop()
+    castilloo.play()
+    narrador.play()
+
+    })
+
+
+
+    const pez2 = document.getElementById("pez2")
+    let colorpez2= 1
+    pez2.addEventListener("click", function(){
+      if (colorpez2==1) {
+        pez2.style.filter="hue-rotate(132deg)"  
+        colorpez2=2      
+      }
+
+      else if (colorpez2==2) {
+        pez2.style.filter="hue-rotate(0deg)"    
+        colorpez2=1  
+      }
+
+
+    })
+
+    const pez3 = document.getElementById("pez3")
+    let colorpez3= 1
+    pez3.addEventListener("click", function(){
+      if (colorpez3==1) {
+        pez3.style.filter="hue-rotate(40deg)"  
+        colorpez3=2      
+      }
+
+      else if (colorpez3==2) {
+        pez3.style.filter="hue-rotate(0deg)"    
+        colorpez3=1  
+      }
+    })
+
+
+        const pez6 = document.getElementById("pez6")
+    let colorpez6= 1
+    pez6.addEventListener("click", function(){
+      if (colorpez6==1) {
+        pez6.style.filter="hue-rotate(200deg)"  
+        colorpez6=2      
+      }
+
+      else if (colorpez6==2) {
+        pez6.style.filter="hue-rotate(0deg)"    
+        colorpez6=1  
+      }
+
+
+    })
+
+  function crearBurbuja() {
+      const burbuja = document.createElement("div");
+      burbuja.classList.add("burbuja");
+
+      const tamaño = Math.random() * 30 + 10;
+      burbuja.style.width = `${tamaño}px`;
+      burbuja.style.height = `${tamaño}px`;
+      burbuja.style.left = `${Math.random() * window.innerWidth}px`;
+      burbuja.style.animationDuration = `${Math.random() * 5 + 4}s`;
+
+      document.body.appendChild(burbuja);
+
+      setTimeout(() => {
+        burbuja.remove();
+      }, 9000);
+    }
+
+    setInterval(crearBurbuja, 300);
+    
+
+    const pez4 =lottie.loadAnimation({
+        container:document.getElementById("pez4"),
+        renderer: "svg",
+        loop: false ,
+        autoplay: false ,
+        path: "pez4.json"
+    })
+
+    pez4.addEventListener("DOMLoaded", function (){
+    pez4.goToAndStop(0, true)
+    })
+
+    document.getElementById("pez4").addEventListener("click", function(){
+    pez4.stop()
+    pez4.play()
+    rumbo.play()
+    })
+
+
+      const pez5 =lottie.loadAnimation({
+          container:document.getElementById("pez5"),
+          renderer: "svg",
+          loop: false ,
+          autoplay: false ,
+          path: "pez5.json"
+      })
+
+      pez5.addEventListener("DOMLoaded", function (){
+      pez5.goToAndStop(0, true)
+      })
+
+      document.getElementById("pez5").addEventListener("click", function(){
+      pez5.stop()
+      pez5.play()
+      })
+
+        const aqua =lottie.loadAnimation({
+        container:document.getElementById("aqua"),
+        renderer: "svg",
+        loop: false ,
+        autoplay: false ,
+        path: "aqua.json"
+    })
+
+    aqua.addEventListener("DOMLoaded", function (){
+    aqua.goToAndStop(0, true)
+    })
+
+    document.getElementById("aqua").addEventListener("click", function(){
+    aqua.stop()
+    aqua.play()
+    })
+
+            const coral =lottie.loadAnimation({
+        container:document.getElementById("coral"),
+        renderer: "svg",
+        loop: false ,
+        autoplay: false ,
+        path: "coral.json"
+    })
+
+    coral.addEventListener("DOMLoaded", function (){
+    coral.goToAndStop(0, true)
+    })
+
+    document.getElementById("coral").addEventListener("click", function(){
+    coral.stop()
+    coral.play()
+    })
+
+
+        const ariel =lottie.loadAnimation({
+        container:document.getElementById("ariel"),
+        renderer: "svg",
+        loop: false ,
+        autoplay: false ,
+        path: "ariel.json"
+    })
+
+    ariel.addEventListener("DOMLoaded", function (){
+    ariel.goToAndStop(0, true)
+    })
+
+    document.getElementById("ariel").addEventListener("click", function(){
+    ariel.stop()
+    ariel.play()
+    })
+
+
+    </script>
+</body>
+
+</html>

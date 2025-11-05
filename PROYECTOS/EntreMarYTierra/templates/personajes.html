@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mar & Tierra - Personajes</title>
+    <link rel="ico" href="../static/img/ico/colas.png">
+    <link rel="stylesheet" href="../static/css/personajes.css">
+</head>
+
+<body>
+    <div id="burbujas-container"></div>
+    <!-- Header con navegación -->
+    <header>
+        <div class="logo">
+            <h1>Mar & Tierra</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="personajes.html" class="active">Personajes</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="tienda.html">Tiendita</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="login.html" id="login-btn">Iniciar Sesión</a></li>
+                <li><a href="registro.html" id="register-btn">Registrarse</a></li>
+                <li><a href="#" id="logout-btn" style="display: none;">Cerrar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Nueva sección de personajes -->
+    <section class="personajes">
+        <h2>Nuestros Personajes</h2>
+        <div class="container">
+            <a href="../templates/escena/liam/liam.html">
+                <div class="character lian" data-name="lian" data-description="Elegante y misteriosa en traje gris.">
+                    <img src="../static/img/personajes/UNO.png" alt="Lian" />
+                    <div class="card">
+                        <h3>Lian</h3>
+                        <p>Formal y con mirada <br> determinada.</p>
+                    </div>
+                </div>
+            </a>
+            <a href="../templates/escena/andrina/andrina.html">
+                <div class="character andrina" data-name="Andrina"
+                    data-description="Con estilo atrevido y botas altas.">
+                    <img src="../static/img/personajes/DOS.png" alt="Andrina" />
+                    <div class="card">
+                        <h3>Andrina</h3>
+                        <p>Con estilo atrevido <br>y botas altas.</p>
+                    </div>
+                </div>
+            </a>
+            <a href="../templates/escena/coral/coral.html">
+                <div class="character coral" data-name="coral" data-description="Desenfadada y amigable.">
+                    <img src="../static/img/personajes/XIMENA.png" alt="Coral"  />
+                    <div class="card">
+                        <h3>Coral</h3>
+                        <p>Desenfadada y amigable.</p>
+                    </div>
+                </div>
+            </a>
+            <a href="../templates/escena/ursula/ursula.html">
+                <div class="character ursula" data-name="Ursula" data-description="Vestido negro y actitud fuerte.">
+                    <img src="../static/img/personajes/CUATRO.png" alt="Úrsula" />
+                    <div class="card">
+                        <h3>Úrsula</h3>
+                        <p>Vestido negro y <br>actitud fuerte.</p>
+                    </div>
+                </div>
+            </a>
+            <a href="../templates/escena/aqua/aqua.html">
+                <div class="character aqua" data-name="aqua" data-description="Formal y con mirada determinada.">
+                    <img src="../static/img/personajes/CINCO.png" alt="Aqua"  />
+                    <div class="card">
+                        <h3>Aqua</h3>
+                        <p>Elegante y misterioso <br>en traje gris.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Mar & Tierra. Todos los derechos reservados.</p>
+            <div class="social-icons">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+    <script src="../static/js/script.js"></script>
+    <script src="../static/js/lottie.min.js"></script>
+    <script src="../static/js/burbujas.js"></script>
+    <script src="../static/js/img_localStorage.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.contenedorgrande{
+margin: auto;
+background-size: cover;
+position: relative;
+width: 1200px;
+height: 540px;
+
+}
+
+body{
+    background-color: #443659;
+    overflow: hidden;
+}
+
+.fondo4listo{
+    position: relative;
+    margin: 0 auto;
+    background-size: cover;
+    width: 1200px;
+    height: 540px;
+  left: 0;
+    top: 8px;
+}
+
+#ojoslistos{
+width: 102px;
+height: 183px;
+position:absolute;
+left: 550px;
+top: 186px;
+cursor: pointer;
+}
+
+#burbujasnuevas{
+width: 1243px;
+height: 411px;
+position:absolute;
+left: -7px;
+top: 20px;
+cursor: pointer;
+}
+
+.mesa{
+width: 465px;
+height: 183px;
+position:absolute;
+left: 359px;
+top: 288px;
+}
+
+
+#tapa1{
+width: 99px;
+height: 107px;
+position:absolute;
+left: 619px;
+top: 188px;
+cursor: pointer;
+}
+
+#tapa2{
+width: 99px;
+height: 107px;
+position:absolute;
+left: 487px;
+top: 186px;
+cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.invisible-btn{
+    position: absolute;
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+    z-index: 3;
+}
+
+#btn-ojoslistos2{
+    top: 357px;
+    left: 558px;
+    width: 71px;
+    height: 67px;
+    background-color: transparent;
+    position: absolute;
+    cursor: pointer;
+     z-index: 2;
+}
+
+
+.invisible-btn{
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 3;
+}
+
+#btn-burbujasnuevas{
+    top: 17px;
+    left: 448px;
+    width: 334px;
+    height: 21px;
+    background-color: transparent;
+}

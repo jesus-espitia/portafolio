@@ -1,0 +1,170 @@
+body{
+    background-color:rgb(202, 227, 250)
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 2px;
+    text-decoration: none;
+}
+.imagenes-movidas section img{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.logo-corazon img{
+    width: 100px;
+    margin-left: 610px;
+    margin-top: 9px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    box-shadow: 0 4px 25px -22px black;
+    z-index: 2;
+}
+
+.heder-content{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.logo h1 b{
+    color:black;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.suport{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.menu{
+    height: 80px;
+    text-decoration: none;
+}
+
+.menu nav{
+    height: 100%;
+}
+
+.menu nav ul{
+    height: 100%;
+    display: flex;
+    list-style: none;
+}
+
+.menu nav ul li{
+    height: 100%;
+    margin: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.menu-selected:before{
+    content: '';
+    width: 100%;
+    height: 4px;
+    background: pink;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.menu nav ul li a{
+    color: #777777;
+    font-size: 18px;
+    transition: color 300ms;
+    margin-bottom: 40px;
+}
+
+.menu nav ul li a:hover{
+    color: pink;
+}
+
+.menu .text-menu-selected{
+    color: pink;
+}
+
+
+.container{
+    width: 700px;
+    height: 650px;
+    margin: 2px auto;
+    margin-top: 99px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0 30px  black;
+    border-radius:20px ;
+    border: 3px pink solid;
+}
+.listado-canciones{
+    width: 100%;
+}
+.cancion{
+    padding: 1rem 0rem;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.titulo{
+    flex:6;
+    margin-left: 50px;
+}
+.play, .stop, .descargar{
+    flex: 1;
+    cursor: pointer;
+}
+
+
+.titulo img{
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+}
+
+.titulo-cancion{
+    display: flex;
+    margin-left: 80px;
+}
+
+.container-content article{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 30px  black;
+    border-radius:20px ;
+    border: 3px pink solid;
+}
+
+.suport{
+    font-family: 'Fira Sans', sans-serif;
+    color: black;
+}
+
+.danger h5 span{
+    color: blueviolet;
+}
+
+.logo-letras img{
+    width: 80px;
+    margin-right: 10px;
+}

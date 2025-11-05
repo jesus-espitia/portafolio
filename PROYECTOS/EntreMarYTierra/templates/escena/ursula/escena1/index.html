@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    
+    <div class="contenedor">
+        <div class="arbol1" id="arbol1"></div>
+        <div class="arbol2" id="arbol2"></div>
+        <div class="murito">
+            <img src="IMG/murito.png" alt="">
+        </div>
+        <div class="pezmorado0" id="pezmorado0"></div>
+        <div class="rey" id="rey"></div>
+        <div class="concha1" id="concha1"></div>
+        <div class="concha2" id="concha2"></div>
+        <div class="concha3" id="concha3"></div>
+        <div class="concha4" id="concha4"></div>
+        <div class="ursula" id="ursula"></div>
+        <div class="esfera" id="esfera"></div>
+        <div class="pezamarillo0nv" id="pezamarillo0nv"></div>
+        <div class="pezamarillo1nv" id="pezamarillo1nv"></div>
+        <div class="pezamarillo2nv" id="pezamarillo2nv"></div>
+        <div class="planta1" id="planta1"></div>
+        <div class="planta2" id="planta2"></div>
+    </div>
+
+
+
+
+
+<script src="lottie.min.js"></script>
+<script>
+
+
+            const arbol1= lottie.loadAnimation({
+            container: document.getElementById("arbol1"),
+            renderer: "svg",
+            loop: true,
+            autoplay: true,
+            path: "arbol1.json"
+            })
+            
+
+			arbol1.addEventListener("DOMLoaded", function(){
+				arbol1.goToAndStop(0,true)
+			})
+
+			document.getElementById("arbol1").addEventListener("click", function(){
+				arbol1.stop()
+				arbol1.play()
+			
+	})
+
+
+            const arbol2= lottie.loadAnimation({
+            container: document.getElementById("arbol2"),
+            renderer: "svg",
+            loop: true,
+            autoplay: true,
+            path: "arbol2.json"
+            })
+            
+
+			arbol2.addEventListener("DOMLoaded", function(){
+				arbol2.goToAndStop(0,true)
+			})
+
+			document.getElementById("arbol2").addEventListener("click", function(){
+				arbol2.stop()
+				arbol2.play()
+			
+	})
+
+
+    const pezmorado0= lottie.loadAnimation({
+            container: document.getElementById("pezmorado0"),
+            renderer: "svg",
+            loop: true,
+            autoplay: true,
+            path: "pezmorado0.json"
+            })
+
+
+const rey= lottie.loadAnimation({
+            container: document.getElementById("rey"),
+            renderer: "svg",
+            loop: true,
+            autoplay: true,
+            path: "rey.json"
+            })
+            
+
+			rey.addEventListener("DOMLoaded", function(){
+				rey.goToAndStop(0,true)
+			})
+
+			document.getElementById("rey").addEventListener("click", function(){
+				rey.stop()
+				rey.play()
+			
+	})
+
+
+   const concha1= lottie.loadAnimation({
+            container: document.getElementById("concha1"),
+            renderer: "svg",
+            loop: true,
+            autoplay: true,
+            path: "concha1.json"
+            })
+            
+
+			concha1.addEventListener("DOMLoaded", function(){
+				concha1.goToAndStop(0,true)
+			})
+
+			document.getElementById("concha1").addEventListener("click", function(){
+				concha1.stop()
+				concha1.play()
+			
+	})
+    
+
+ const concha2= lottie.loadAnimation({
+            container: document.getElementById("concha2"),
+            renderer: "svg",
+            loop: true,
+            autoplay: true,
+            path: "concha2.json"
+            })
+            
+
+			concha2.addEventListener("DOMLoaded", function(){
+				concha2.goToAndStop(0,true)
+			})
+
+			document.getElementById("concha2").addEventListener("click", function(){
+				concha2.stop()
+				concha2.play()
+			
+	})
+
+const concha3= lottie.loadAnimation({
+            container: document.getElementById("concha3"),
+            renderer: "svg",
+            loop: true,
+            autoplay: true,
+            path: "concha3.json"
+            })
+            
+
+			concha3.addEventListener("DOMLoaded", function(){
+				concha3.goToAndStop(0,true)
+			})
+
+			document.getElementById("concha3").addEventListener("click", function(){
+				concha3.stop()
+				concha3.play()
+			
+	})
+
+    const concha4= lottie.loadAnimation({
+            container: document.getElementById("concha4"),
+            renderer: "svg",
+            loop: true,
+            autoplay: true,
+            path: "concha4.json"
+            })
+            
+
+			concha4.addEventListener("DOMLoaded", function(){
+				concha4.goToAndStop(0,true)
+			})
+
+			document.getElementById("concha3").addEventListener("click", function(){
+				concha4.stop()
+				concha4.play()
+			
+	})
+
+    const ursula= lottie.loadAnimation({
+            container: document.getElementById("ursula"),
+            renderer: "svg",
+            loop: true,
+            autoplay: true,
+            path: "ursula.json"
+            })
+            
+
+			ursula.addEventListener("DOMLoaded", function(){
+				ursula.goToAndStop(0,true)
+			})
+
+			document.getElementById("ursula").addEventListener("click", function(){
+				ursula.stop()
+				ursula.play()
+			
+	})
+
+     const esfera= lottie.loadAnimation({
+            container: document.getElementById("esfera"),
+            renderer: "svg",
+            loop: true,
+            autoplay: true,
+            path: "esfera.json"
+            })
+            
+
+			esfera.addEventListener("DOMLoaded", function(){
+				esfera.goToAndStop(0,true)
+			})
+
+			document.getElementById("esfera").addEventListener("click", function(){
+				esfera.stop()
+				esfera.play()
+			
+	})
+
+     const pezamarillo0nv= lottie.loadAnimation({
+            container: document.getElementById("pezamarillo0nv"),
+            renderer: "svg",
+            loop: true,
+            autoplay: true,
+            path: "pezamarillo0nv.json"
+            })
+
+const pezamarillo1nv= lottie.loadAnimation({
+            container: document.getElementById("pezamarillo1nv"),
+            renderer: "svg",
+            loop: true,
+            autoplay: true,
+            path: "pezamarillo1nv.json"
+            })
+
+const pezamarillo2nv= lottie.loadAnimation({
+            container: document.getElementById("pezamarillo2nv"),
+            renderer: "svg",
+            loop: true,
+            autoplay: true,
+            path: "pezamarillo2nv.json"
+            })
+
+const planta1 = lottie.loadAnimation({
+  container: document.getElementById("planta1"),
+  renderer: "svg",
+  loop: true,           // ¡Importante! solo una vez
+  autoplay: false,       // No se reproduce al cargar
+  path: "planta1.json"
+});
+
+planta1.addEventListener("DOMLoaded", function () {
+  planta1.goToAndStop(0, true); // Se queda quieta al cargar
+});
+
+let yaSeMovio = false;
+
+document.getElementById("planta1").addEventListener("click", function () {
+  if (!yaSeMovio) {
+    planta1.play();         // Reproduce una sola vez
+    yaSeMovio = true;       // Ya no volverá a moverse en próximos clics
+  }
+});
+
+const planta2 = lottie.loadAnimation({
+  container: document.getElementById("planta2"),
+  renderer: "svg",
+  loop: true,           
+  autoplay: false,       
+  path: "planta2.json"
+});
+
+planta2.addEventListener("DOMLoaded", function () {
+  planta2.goToAndStop(0, true); 
+});
+
+let yaSeMovion = false;
+
+document.getElementById("planta2").addEventListener("click", function () {
+  if (!yaSeMovio) {
+    planta2.play();         
+    yaSeMovion = true;       
+  }
+});
+
+</script>
+
+
+
+<svg id="burbuja1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58.8 48.79">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e9e9e9;
+        opacity: .39;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #87ccc9;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #b9e2f4;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-4" cx="29.4" cy="24.4" rx="29.4" ry="24.4"/>
+  <path class="cls-1" d="M53.69,19.69c0,9.91-9.25-1.12-22.68-1.12s-25.95,11.04-25.95,1.12S15.94,1.75,29.37,1.75s24.32,8.03,24.32,17.95Z"/>
+  <path class="cls-2" d="M53.3,28.07c0-10.32-9.1,1.17-22.3,1.17s-25.52-11.49-25.52-1.17,10.71,18.69,23.91,18.69,23.91-8.37,23.91-18.69Z"/>
+  <path class="cls-3" d="M31.09,7.87c1.11,2.43-3.43,6.12-10.13,8.22s-13.04,1.84-14.15-.6c-1.11-2.43,3.43-6.12,10.13-8.22s13.04-1.84,14.15.6Z"/>
+</svg>
+
+<svg id="burbuja2" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.81 36.35">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e9e9e9;
+        opacity: .39;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #87ccc9;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #b9e2f4;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-4" cx="21.9" cy="18.18" rx="21.9" ry="18.18"/>
+  <path class="cls-1" d="M40,14.67c0,7.38-6.89-.84-16.9-.84S3.76,22.06,3.76,14.67,11.87,1.3,21.88,1.3s18.12,5.99,18.12,13.37Z"/>
+  <path class="cls-2" d="M39.71,20.92c0-7.69-6.78.87-16.62.87s-19.02-8.56-19.02-.87,7.98,13.92,17.82,13.92,17.82-6.23,17.82-13.92Z"/>
+  <path class="cls-3" d="M23.17,5.87c.83,1.81-2.55,4.56-7.55,6.12-5,1.57-9.72,1.37-10.54-.44-.83-1.81,2.55-4.56,7.55-6.12,5-1.57,9.72-1.37,10.54.44Z"/>
+</svg>
+
+<svg id="burbuja3" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.73 18.03">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e9e9e9;
+        opacity: .39;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #87ccc9;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #b9e2f4;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-4" cx="10.87" cy="9.02" rx="10.87" ry="9.02"/>
+  <path class="cls-1" d="M19.84,7.28c0,3.66-3.42-.42-8.38-.42S1.87,10.94,1.87,7.28,5.89.65,10.86.65s8.99,2.97,8.99,6.63Z"/>
+  <path class="cls-2" d="M19.7,10.38c0-3.82-3.36.43-8.24.43s-9.43-4.25-9.43-.43,3.96,6.91,8.84,6.91,8.84-3.09,8.84-6.91Z"/>
+  <path class="cls-3" d="M11.49,2.91c.41.9-1.27,2.26-3.75,3.04-2.48.78-4.82.68-5.23-.22-.41-.9,1.27-2.26,3.75-3.04,2.48-.78,4.82-.68,5.23.22Z"/>
+</svg>
+
+<svg id="burbuja4" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42.55 34.62">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e9e9e9;
+        opacity: .39;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #87ccc9;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #b9e2f4;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-4" cx="21.28" cy="17.31" rx="21.28" ry="17.31"/>
+  <path class="cls-1" d="M38.85,13.97c0,7.03-6.7-.8-16.42-.8s-18.78,7.83-18.78.8S11.53,1.24,21.25,1.24s17.6,5.7,17.6,12.73Z"/>
+  <path class="cls-2" d="M38.57,19.92c0-7.32-6.58.83-16.14.83S3.96,12.6,3.96,19.92s7.75,13.26,17.31,13.26,17.31-5.94,17.31-13.26Z"/>
+  <path class="cls-3" d="M22.5,5.59c.8,1.73-2.48,4.34-7.33,5.83s-9.44,1.3-10.24-.42,2.48-4.34,7.33-5.83c4.85-1.49,9.44-1.3,10.24.42Z"/>
+</svg>
+
+<svg id="burbuja5" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.6 18.2">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e9e9e9;
+        opacity: .72;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #87ccc9;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #b9e2f4;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-4" cx="10.8" cy="9.1" rx="10.87" ry="9.02" transform="translate(-1.61 2.36) rotate(-11.6)"/>
+  <path class="cls-1" d="M19.78,7.36c0,3.66-3.42-.42-8.38-.42S1.8,11.03,1.8,7.36,5.82.73,10.79.73s8.99,2.97,8.99,6.63Z"/>
+  <path class="cls-2" d="M19.63,10.46c0-3.82-3.36.43-8.24.43S1.95,6.65,1.95,10.46s3.96,6.91,8.84,6.91,8.84-3.09,8.84-6.91Z"/>
+  <path class="cls-3" d="M11.43,2.99c.41.9-1.27,2.26-3.75,3.04s-4.82.68-5.23-.22,1.27-2.26,3.75-3.04c2.48-.78,4.82-.68,5.23.22Z"/>
+</svg>
+<svg id="burbuja6" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49.15 40.79">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e9e9e9;
+        opacity: .39;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #87ccc9;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #b9e2f4;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-4" cx="24.57" cy="20.39" rx="24.57" ry="20.39"/>
+  <path class="cls-1" d="M44.88,16.46c0,8.29-7.73-.94-18.96-.94s-21.7,9.23-21.7.94S13.32,1.46,24.55,1.46s20.33,6.72,20.33,15Z"/>
+  <path class="cls-2" d="M44.55,23.47c0-8.63-7.61.98-18.65.98s-21.33-9.61-21.33-.98,8.95,15.62,19.99,15.62,19.99-6.99,19.99-15.62Z"/>
+  <path class="cls-3" d="M25.99,6.58c.93,2.04-2.86,5.11-8.47,6.87-5.61,1.76-10.9,1.54-11.83-.5s2.86-5.11,8.47-6.87c5.61-1.76,10.9-1.54,11.83.5Z"/>
+</svg>
+
+<svg id="burbuja7" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.29 41.73">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e9e9e9;
+        opacity: .39;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #87ccc9;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #b9e2f4;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-4" cx="25.65" cy="20.87" rx="25.65" ry="20.87"/>
+  <path class="cls-1" d="M46.84,16.84c0,8.48-8.07-.96-19.79-.96s-22.64,9.44-22.64.96S13.9,1.49,25.62,1.49s21.22,6.87,21.22,15.35Z"/>
+  <path class="cls-2" d="M46.5,24.01c0-8.83-7.94,1-19.46,1s-22.26-9.83-22.26-1,9.34,15.99,20.86,15.99,20.86-7.16,20.86-15.99Z"/>
+  <path class="cls-3" d="M27.12,6.74c.97,2.08-2.99,5.23-8.84,7.03s-11.38,1.57-12.35-.51,2.99-5.23,8.84-7.03c5.85-1.8,11.38-1.57,12.35.51Z"/>
+</svg>
+
+<svg id="burbuja8" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.33 24.68">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e9e9e9;
+        opacity: .39;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #87ccc9;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #b9e2f4;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-4" cx="15.16" cy="12.34" rx="15.16" ry="12.34"/>
+  <path class="cls-1" d="M27.69,9.96c0,5.01-4.77-.57-11.7-.57s-13.39,5.58-13.39.57S8.22.88,15.15.88s12.54,4.06,12.54,9.08Z"/>
+  <path class="cls-2" d="M27.49,14.2c0-5.22-4.69.59-11.51.59s-13.16-5.81-13.16-.59,5.52,9.45,12.33,9.45,12.33-4.23,12.33-9.45Z"/>
+  <path class="cls-3" d="M16.04,3.98c.57,1.23-1.77,3.09-5.23,4.16s-6.73.93-7.3-.3,1.77-3.09,5.23-4.16,6.73-.93,7.3.3Z"/>
+</svg>
+
+<svg id="burbuja9" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53.47 45.09">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e9e9e9;
+        opacity: .39;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #87ccc9;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #b9e2f4;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-4" cx="26.74" cy="22.55" rx="22.52" ry="26.76" transform="translate(2.3 47.57) rotate(-85.82)"/>
+  <path class="cls-1" d="M49.1,19.81c-.66,9.13-8.32-1.64-20.52-2.53-12.19-.88-24.3,8.45-23.64-.67S16.02.81,28.22,1.69c12.19.88,21.54,9,20.88,18.12Z"/>
+  <path class="cls-2" d="M48.19,27.51c.69-9.5-8.34.48-20.33-.39-11.99-.87-22.4-12.26-23.09-2.76s8.48,17.91,20.46,18.78,22.26-6.13,22.95-15.63Z"/>
+  <path class="cls-3" d="M29.37,7.45c.85,2.31-3.52,5.4-9.75,6.9-6.23,1.5-11.96.83-12.81-1.48s3.52-5.4,9.75-6.9c6.23-1.5,11.96-.83,12.81,1.48Z"/>
+</svg>
+
+<svg id="burbuja10" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44.28 36.03">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e9e9e9;
+        opacity: .39;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #87ccc9;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #b9e2f4;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-4" cx="22.14" cy="18.02" rx="22.14" ry="18.02"/>
+  <path class="cls-1" d="M40.44,14.54c0,7.32-6.97-.83-17.08-.83S3.8,21.86,3.8,14.54,12,1.29,22.12,1.29s18.32,5.93,18.32,13.25Z"/>
+  <path class="cls-2" d="M40.14,20.73c0-7.62-6.85.86-16.8.86s-19.22-8.49-19.22-.86,8.06,13.8,18.01,13.8,18.01-6.18,18.01-13.8Z"/>
+  <path class="cls-3" d="M23.42,5.82c.84,1.8-2.58,4.52-7.63,6.07-5.05,1.55-9.82,1.36-10.66-.44s2.58-4.52,7.63-6.07,9.82-1.36,10.66.44Z"/>
+</svg>
+
+<svg id="burbuja11" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.81 36.35">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e9e9e9;
+        opacity: .39;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #87ccc9;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #b9e2f4;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-4" cx="21.9" cy="18.18" rx="21.9" ry="18.18"/>
+  <path class="cls-1" d="M40,14.67c0,7.38-6.89-.84-16.9-.84S3.76,22.06,3.76,14.67,11.87,1.3,21.88,1.3s18.12,5.99,18.12,13.37Z"/>
+  <path class="cls-2" d="M39.71,20.92c0-7.69-6.78.87-16.62.87s-19.02-8.56-19.02-.87,7.98,13.92,17.82,13.92,17.82-6.23,17.82-13.92Z"/>
+  <path class="cls-3" d="M23.17,5.87c.83,1.81-2.55,4.56-7.55,6.12-5,1.57-9.72,1.37-10.54-.44s2.55-4.56,7.55-6.12c5-1.57,9.72-1.37,10.54.44Z"/>
+</svg>
+
+<svg id="burbuja12" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.81 36.35">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e9e9e9;
+        opacity: .39;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #87ccc9;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #b9e2f4;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-4" cx="21.9" cy="18.18" rx="21.9" ry="18.18"/>
+  <path class="cls-1" d="M40,14.67c0,7.38-6.89-.84-16.9-.84S3.76,22.06,3.76,14.67,11.87,1.3,21.88,1.3s18.12,5.99,18.12,13.37Z"/>
+  <path class="cls-2" d="M39.71,20.92c0-7.69-6.78.87-16.62.87s-19.02-8.56-19.02-.87,7.98,13.92,17.82,13.92,17.82-6.23,17.82-13.92Z"/>
+  <path class="cls-3" d="M23.17,5.87c.83,1.81-2.55,4.56-7.55,6.12-5,1.57-9.72,1.37-10.54-.44s2.55-4.56,7.55-6.12c5-1.57,9.72-1.37,10.54.44Z"/>
+</svg>
+
+<svg id="burbuja13" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44.28 36.03">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e9e9e9;
+        opacity: .39;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #87ccc9;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #b9e2f4;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-4" cx="22.14" cy="18.02" rx="22.14" ry="18.02"/>
+  <path class="cls-1" d="M40.44,14.54c0,7.32-6.97-.83-17.08-.83S3.8,21.86,3.8,14.54,12,1.29,22.12,1.29s18.32,5.93,18.32,13.25Z"/>
+  <path class="cls-2" d="M40.14,20.73c0-7.62-6.85.86-16.8.86s-19.22-8.49-19.22-.86,8.06,13.8,18.01,13.8,18.01-6.18,18.01-13.8Z"/>
+  <path class="cls-3" d="M23.42,5.82c.84,1.8-2.58,4.52-7.63,6.07-5.05,1.55-9.82,1.36-10.66-.44s2.58-4.52,7.63-6.07,9.82-1.36,10.66.44Z"/>
+</svg>
+
+<svg id="burbuja14" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44.28 36.03">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e9e9e9;
+        opacity: .39;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #87ccc9;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #b9e2f4;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-4" cx="22.14" cy="18.02" rx="22.14" ry="18.02"/>
+  <path class="cls-1" d="M40.44,14.54c0,7.32-6.97-.83-17.08-.83S3.8,21.86,3.8,14.54,12,1.29,22.12,1.29s18.32,5.93,18.32,13.25Z"/>
+  <path class="cls-2" d="M40.14,20.73c0-7.62-6.85.86-16.8.86s-19.22-8.49-19.22-.86,8.06,13.8,18.01,13.8,18.01-6.18,18.01-13.8Z"/>
+  <path class="cls-3" d="M23.42,5.82c.84,1.8-2.58,4.52-7.63,6.07-5.05,1.55-9.82,1.36-10.66-.44s2.58-4.52,7.63-6.07,9.82-1.36,10.66.44Z"/>
+</svg>
+
+<svg id="burbuja15" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44.28 36.03">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e9e9e9;
+        opacity: .39;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #87ccc9;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #b9e2f4;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-4" cx="22.14" cy="18.02" rx="22.14" ry="18.02"/>
+  <path class="cls-1" d="M40.44,14.54c0,7.32-6.97-.83-17.08-.83S3.8,21.86,3.8,14.54,12,1.29,22.12,1.29s18.32,5.93,18.32,13.25Z"/>
+  <path class="cls-2" d="M40.14,20.73c0-7.62-6.85.86-16.8.86s-19.22-8.49-19.22-.86,8.06,13.8,18.01,13.8,18.01-6.18,18.01-13.8Z"/>
+  <path class="cls-3" d="M23.42,5.82c.84,1.8-2.58,4.52-7.63,6.07-5.05,1.55-9.82,1.36-10.66-.44s2.58-4.52,7.63-6.07,9.82-1.36,10.66.44Z"/>
+</svg>
+
+<svg id="burbuja16" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.33 24.68">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e9e9e9;
+        opacity: .39;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #87ccc9;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #b9e2f4;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-4" cx="15.16" cy="12.34" rx="15.16" ry="12.34"/>
+  <path class="cls-1" d="M27.69,9.96c0,5.01-4.77-.57-11.7-.57s-13.39,5.58-13.39.57S8.22.88,15.15.88s12.54,4.06,12.54,9.08Z"/>
+  <path class="cls-2" d="M27.49,14.2c0-5.22-4.69.59-11.51.59s-13.16-5.81-13.16-.59,5.52,9.45,12.33,9.45,12.33-4.23,12.33-9.45Z"/>
+  <path class="cls-3" d="M16.04,3.98c.57,1.23-1.77,3.09-5.23,4.16s-6.73.93-7.3-.3,1.77-3.09,5.23-4.16c3.46-1.06,6.73-.93,7.3.3Z"/>
+</svg>
+
+</body>
+</html>

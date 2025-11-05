@@ -1,0 +1,168 @@
+body {
+  background-color: #590572;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.contenedor {
+    top: 20px;
+  overflow: hidden;
+  position: relative;
+  width: 1200px;
+  height: 540px;
+  margin: 0 auto;
+  background-image: url(IMG/FONDO3a.svg);
+  background-size: cover;
+}
+
+/* Área de burbujas */
+.burbujas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+/* Estilo de cada burbuja */
+.burbuja {
+  position: absolute;
+  bottom: -20px;
+  width: 20px;
+  height: 20px;
+  background: rgba(106, 237, 235, 0.3);
+  border-radius: 50%;
+  animation: flotar 8s ease-in forwards;
+}
+
+/* Animación de flotación */
+@keyframes flotar {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(-200px) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-400px) scale(0.8);
+    opacity: 0;
+  }
+}
+#concha {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 22px;
+  left: 7px;
+}
+#conchita {
+  position: absolute;
+  width: 167px;
+  height: 188px;
+  top: 320px;
+  left: 70px;
+}
+#cangrejo {
+  position: absolute;
+  width: 603px;
+  height: 268px;
+  top: 367px;
+  left: 611px;
+}
+#algas {
+  position: absolute;
+  width: 1200px;
+  height: 700px;
+  top: -12px;
+  left: 0px;
+}
+#personaje{
+  position: absolute;
+  width: 145px;
+  height: 264px;
+  top: 262px;
+  left: 280px;
+}
+
+
+.invisible-btn {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 3;
+}
+#btn-concha {
+  top: 148px;
+  left: 505px;
+  width: 233px;
+  height: 220px;
+}
+#btn-conchita {
+ top: 385px;
+  left: 98px;
+  width: 126px;
+  height: 92px;
+}
+#btn-cangrejo {
+  top: 436px;
+  left: 879px;
+  width: 119px;
+  height: 83px;
+}
+
+#btn-algas{
+  width: 1085px;
+  height: 147px;
+  top: 5px;
+  left: 90px;
+}
+#btn-personaje{
+  width: 100px;
+  height: 184px;
+  top: 298px;
+  left: 383px;
+}
+
+.ariel {
+    width: 100%;
+    height: 105%;
+    right: 1400px;
+
+}
+
+#ariel {
+    width: 213px;
+    height: 210px;
+    position:absolute;
+    cursor: pointer;
+    bottom: 20px;
+    right: 200px;
+}
+
+.coral {
+    width: 100%;
+    height: 105%;
+    right: 1000px;
+
+}
+
+#coral {
+    width: 213px;
+    height: 210px;
+    position:absolute;
+    cursor: pointer;
+    bottom: 10px;
+    right: 10px;
+}
+
+#ursula{
+    width: 150px;
+    height: 145px;
+    position:absolute;
+    cursor: pointer;
+    bottom: 60px;
+    left: 550px;
+}

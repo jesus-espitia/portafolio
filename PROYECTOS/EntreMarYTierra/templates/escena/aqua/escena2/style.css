@@ -1,0 +1,353 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #01427A;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.burbuja {
+    position: absolute;
+    bottom: -50px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    pointer-events: none;
+    animation: subir 8s linear infinite;
+}
+
+@keyframes subir {
+    0% {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-120vh) scale(1.5);
+        opacity: 0;
+    }
+}
+
+.container {
+    margin:20px auto;
+    width: 1200px;
+    height: 540px;
+    background-image: url(img/fondo2.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+
+.pez2 {
+    width: 53px;
+    height: 55px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 0;
+    overflow: 10px;
+    left: 10px;
+    top: 20%;
+}
+
+
+
+#pez2 {
+    animation: pez2 30s linear infinite;
+}
+
+@keyframes pez2 {
+    0% {
+        translate: 0 0;
+        scale: 1 1;
+
+    }
+
+    49% {
+        translate: 1200px 0;
+        scale: 1 1;
+    }
+
+    50% {
+        translate: 1200px 0;
+        scale: -1 1;
+    }
+
+    99% {
+        translate: 0 0;
+        scale: -1 1;
+    }
+
+    100% {
+        translate: 0 0;
+        scale: 1 1;
+    }
+}
+
+
+.pez3 {
+    width: 53px;
+    height: 55px;
+    position: absolute;
+    cursor: pointer;
+    overflow: 10px;
+    left: 10px;
+    top: 10%;
+}
+
+
+
+#pez3 {
+    animation: pez3 40s linear infinite;
+}
+
+@keyframes pez3 {
+    0% {
+        translate: 0 0;
+        scale: 1 1;
+
+    }
+
+    49% {
+        translate: 1200px 0;
+        scale: 1 1;
+    }
+
+    50% {
+        translate: 1200px 0;
+        scale: -1 1;
+    }
+
+    99% {
+        translate: 0 0;
+        scale: -1 1;
+    }
+
+    100% {
+        translate: 0 0;
+        scale: 1 1;
+    }
+}
+
+.pez4 {
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 0;
+    left: 10px;
+}
+
+#pez4 {
+    width: 150px;
+    height: 140px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 0;
+    right: 10px;
+    overflow: 10px;
+    top: 10px;
+}
+
+#pez4{
+    animation: pez4 60s linear infinite;
+}
+
+    @keyframes pez4 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-1100px); 
+    }
+    }
+
+
+
+
+.pez6 {
+    width: 53px;
+    height: 55px;
+    position: absolute;
+    cursor: pointer;
+    overflow: 10px;
+    left: 20px;
+    top: 30%;
+}
+
+
+
+#pez6 {
+    animation: pez3 20s linear infinite;
+}
+
+@keyframes pez6 {
+    0% {
+        translate: 0 0;
+        scale: 1 1;
+
+    }
+
+    49% {
+        translate: 1200px 0;
+        scale: 1 1;
+    }
+
+    50% {
+        translate: 1200px 0;
+        scale: -1 1;
+    }
+
+    99% {
+        translate: 0 0;
+        scale: -1 1;
+    }
+
+    100% {
+        translate: 0 0;
+        scale: 1 1;
+    }
+}
+
+
+
+.pez7 {
+    width: 53px;
+    height: 55px;
+    position: absolute;
+    cursor: pointer;
+    overflow: 10px;
+    left: 20px;
+    top: 31%;
+}
+
+
+
+#pez7 {
+    animation: pez3 25s linear infinite;
+}
+
+@keyframes pez7 {
+    0% {
+        translate: 0 0;
+        scale: 1 1;
+
+    }
+
+    49% {
+        translate: 1200px 0;
+        scale: 1 1;
+    }
+
+    50% {
+        translate: 1200px 0;
+        scale: -1 1;
+    }
+
+    99% {
+        translate: 0 0;
+        scale: -1 1;
+    }
+
+    100% {
+        translate: 0 0;
+        scale: 1 1;
+    }
+}
+
+
+
+
+
+.aqua {
+    width: 100%;
+    height: 105%;
+    right: 1000px;
+
+}
+
+#aqua {
+    width: 213px;
+    height: 210px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 0;
+left: 1010px;
+}
+
+.roca {
+    width: 100%;
+    height: 105%;
+    right: 1000px;
+
+}
+
+#roca {
+    width: 413px;
+    height: 230px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 0;
+left: 35px;
+}
+
+
+
+
+.cangrejo {
+    width: 100%;
+    height: 105%;
+    right: 1000px;
+
+}
+
+#cangrejo {
+    width: 110px;
+    height: 100px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 0;
+    top: 80%;
+    right:580px;
+}
+
+
+.estatua {
+    width: 100%;
+    height: 105%;
+    right: 1000px;
+
+}
+
+#estatua {
+    width: 213px;
+    height: 510px;
+    position: absolute;
+    cursor: pointer;
+left: 800px;
+}
+
+
+.aqua2 {
+    width: 90%;
+    height: 100%;
+    right: 1000px;
+
+}
+
+#aqua2 {
+    width: 210px;
+    height: 205px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 0;
+    left: 650px;
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - David Martinez</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="icon" href="static/img/icon/icon.png">
+</head>
+
+<body>
+    <header>
+        <div class="logo" aria-hidden="true">
+            <img class="logodavid" src="static/img/icon/icon.png" alt="Logo David Martinez">
+            David Martinez — Producción Multimedia
+        </div>
+
+        <nav role="navigation" aria-label="Navegación principal">
+            <button class="btn-nav" data-target="inicio">Inicio</button>
+            <button class="btn-nav" data-target="servicios">Servicios</button>
+            <button class="btn-nav" data-target="trabajos">Mis trabajos</button>
+            <button class="btn-nav" data-target="contacto">Contacto</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- INICIO -->
+        <section id="inicio" class="home-section">
+            <div class="home">
+                <div>
+                    <h1>Hola, soy David Martinez</h1>
+                    <p>Bienvenido a mi universo creativo. Aquí encontrarás una mezcla de diseño, animación y multimedia,
+                        donde cada detalle cuenta una historia.</p>
+
+                    <div class="cta-row">
+                        <button class="cta" data-target="servicios">Ver servicios</button>
+                        <button class="cta" data-target="trabajos">Ver trabajos</button>
+                    </div>
+
+                    <div></div>
+                </div>
+
+                <aside class="home-preview" aria-hidden="true">
+                    <div class="preview-img">
+                        <img src="static/img/icon/David Martinez.png" alt="Foto de David Martinez">
+                    </div>
+                    <div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- SERVICIOS -->
+        <section id="servicios" aria-labelledby="titulo-servicios">
+            <div>
+                <h2 id="titulo-servicios">Servicios</h2>
+                <p>Ofrezco una combinación de diseño, edición y animación. Aquí hay una lista de herramientas con las
+                    que trabajo.</p>
+
+                <div class="servicios" role="list">
+                    <div class="tool" role="listitem">
+                        <img class="potoicono" src="static/img/programas/photoshop.png" alt="Photoshop">
+                        <strong>Adobe Photoshop</strong>
+                        <small>Edición y retoque fotográfico, compositing y texturas.</small>
+                    </div>
+
+                    <div class="tool" role="listitem">
+                        <img class="illustrator3d" src="static/img/programas/illustrtaor.png" alt="Illustrator">
+                        <strong>Adobe Illustrator</strong>
+                        <small>Vectores, logotipos, ilustración y assets escalables.</small>
+                    </div>
+
+                    <div class="tool" role="listitem">
+                        <img class="after" src="static/img/programas/after.png" alt="After Effects">
+                        <strong>Adobe After Effects</strong>
+                        <small>Motion graphics, composiciones y animaciones de títulos.</small>
+                    </div>
+
+                    <div class="tool" role="listitem">
+                        <img class="premiere3d" src="static/img/programas/premiere.png" alt="Premiere">
+                        <strong>Adobe Premiere</strong>
+                        <small>Edición de video, montaje y corrección básica de color.</small>
+                    </div>
+
+                    <div class="tool" role="listitem">
+                        <img class="figma" src="static/img/programas/figma.png" alt="Figma">
+                        <strong>Adobe XD / Figma</strong>
+                        <small>Prototipos, interacción y diseño de interfaces.</small>
+                    </div>
+
+                    <div class="tool" role="listitem">
+                        <img class="lightroom" src="static/img/programas/lightroom.png" alt="Lightroom">
+                        <strong>Adobe Lightroom</strong>
+                        <small>Revelado y gestión de color para fotografía.</small>
+                    </div>
+
+                    <div class="tool" role="listitem">
+                        <img class="indesing" src="static/img/programas/indesing.png" alt="InDesign">
+                        <strong>Adobe InDesign</strong>
+                        <small>Maquetación y diseño editorial para impresos y digitales.</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TRABAJOS -->
+        <section id="trabajos" class="projects-section">
+            <div class="container">
+                <h2 class="section-title">Mis Proyectos</h2>
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <div class="carousel-slide">
+                            <img src="static/img/image/Support sonuds.png" alt="Proyecto 1">
+                            <div class="project-info">
+                                <h3><a href="#" target="_blank">Diseño de Marca</a></h3>
+                                <p>Creación completa de identidad visual para una startup tecnológica, incluyendo logo,
+                                    paleta de colores y guía de estilo.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="static/img/image/entre mar y tierra.png" alt="Proyecto 2">
+                            <div class="project-info">
+                                <h3><a href="#" target="_blank">Diseño Editorial</a></h3>
+                                <p>Diseño y maquetación de revista trimestral con enfoque en minimalismo y legibilidad.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="static/img/image/illustrador.jpg" alt="Proyecto 3">
+                            <div class="project-info">
+                                <h3><a href="#" target="_blank">UI/UX App Móvil</a></h3>
+                                <p>Diseño de interfaz y experiencia de usuario para aplicación de gestión de finanzas
+                                    personales.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="static/img/image/blender.jpg" alt="Proyecto 4">
+                            <div class="project-info">
+                                <h3><a href="#" target="_blank">Packaging Producto</a></h3>
+                                <p>Diseño de empaque para línea de productos orgánicos con enfoque en sostenibilidad.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="static/img/image/after.jpg" alt="Proyecto 5">
+                            <div class="project-info">
+                                <h3><a href="https://ejemplo.com/proyecto5" target="_blank">Campaña Publicitaria</a>
+                                </h3>
+                                <p>Creación de campaña visual multicanal para lanzamiento de producto.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="carousel-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                    <div class="carousel-indicators"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+        <section id="contacto" aria-labelledby="titulo-contacto">
+            <div>
+                <h2 id="titulo-contacto">Contacto</h2>
+                <p>Si quieres trabajar juntos o ver más proyectos, contáctame:</p>
+
+                <div class="contact-card">
+                    <div class="contact-list">
+                        <span><strong>Teléfono:</strong> <a href="tel:+57 32445099588">+57 300 123 4567</a></span>
+                        <span><strong>Correo:</strong> <a
+                                href="mailto:davidmartinezxtz113@gmail.com">david.tuemail@example.com</a></span>
+                        <span><strong>Dirección:</strong> CR 100 AB CL 48 FB-20 San Javier, Medellín, Colombia</span>
+                        <span><strong>Derechos:</strong> © <span id="year"></span> David — Todos los derechos
+                            reservados.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        Diseñado y desarrollado por David • Producción Multimedia •
+    </footer>
+
+    <script src="static/js/scrip.js"></script>
+</body>
+
+</html>

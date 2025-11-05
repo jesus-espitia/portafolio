@@ -1,0 +1,310 @@
+/* styles.css combinado */
+:root {
+    --morado-claro: #E6D7FF;
+    --morado-medio: #D4BFFF;
+    --morado-oscuro: #C2A7FF;
+    --morado-intenso: #9B88FF;
+    --morado-very-intenso: #7D66F0;
+    --texto-oscuro: #333;
+    --texto-claro: #fff;
+    --sombra: rgba(155, 136, 255, 0.2);
+    --azul-agua: #0868bd;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #FFFEFF;
+    color: var(--texto-oscuro);
+    line-height: 1.6;
+    position: relative;
+    overflow-x: auto;
+}
+
+/* Header y navegación */
+header {
+    background: linear-gradient(135deg, var(--morado-medio), var(--morado-oscuro));
+    color: var(--texto-claro);
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 10px var(--sombra);
+    position: relative;
+    z-index: 10;
+}
+.logo h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+nav ul li {
+    margin: 0.5rem 1rem;
+}
+nav ul li a {
+    color: var(--texto-claro);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 0.8rem;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+nav ul li a:hover, nav ul li a.active {
+    background-color: var(--morado-intenso);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Sección de personajes */
+.personajes {
+    padding: 4rem 0;
+    background: linear-gradient(45deg, var(--morado-claro), transparent);
+    position: relative;
+    z-index: 5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.personajes h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    color: var(--morado-very-intenso);
+    font-weight: 700;
+    position: relative;
+    z-index: 5;
+}
+.personajes h2::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, var(--morado-intenso), var(--morado-very-intenso));
+    margin: 1rem auto;
+    border-radius: 2px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 2rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    position: relative;
+    z-index: 5;
+    height: 85vh;
+    align-items: flex-end;
+    width: 100%;
+}
+.character {
+    flex: 0 0 auto;
+    position: relative;
+    text-align: center;
+    height: 85vh;
+    display: inline-block;
+    transition: all 0.4s ease;
+}
+.character img {
+    height: 100%;
+    width: 80%;
+    object-fit: contain;
+    filter: grayscale(100%);
+    transition: filter 0.25s ease, transform 0.5s ease;
+    cursor: pointer;
+}
+.character:hover img {
+    filter: none;
+    transform: scale(1.05);
+}
+.card {
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    width: 220px;
+    z-index: 10;
+    text-align: center;
+}
+.character:hover .card {
+    opacity: 1;
+}
+/* Estilos para el contenido de la tarjeta */
+.card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+    color: var(--morado-very-intenso);
+    font-weight: 600;
+    display: block;
+}
+.card p {
+    font-size: 1rem;
+    color: var(--texto-oscuro);
+    margin: 0;
+    line-height: 1.5;
+    display: block;
+}
+/* Ocultamos los títulos y descripciones originales */
+.character > h3, .character > p {
+    display: none;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(135deg, var(--morado-oscuro), var(--morado-intenso));
+    color: var(--texto-claro);
+    padding: 2rem 5%;
+    text-align: center;
+    position: relative;
+    z-index: 5;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.social-icons {
+    display: flex;
+    gap: 1.5rem;
+}
+.social-icons a {
+    color: var(--texto-claro);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.social-icons a:hover {
+    color: var(--morado-claro);
+    transform: translateY(-3px);
+}
+
+/* Estilos de burbujas */
+.burbuja {
+    position: absolute;
+    bottom: -50px;
+    background: rgba(121, 132, 233, 0.3);
+    border-radius: 50%;
+    pointer-events: none;
+    animation: subir 8s linear infinite;
+    z-index: 1;
+}
+#burbujas-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none; /* Para que no moleste el click */
+    z-index: 9999; /* Para que estén encima */
+}
+
+@keyframes subir {
+    0% {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-120vh) scale(1.5);
+        opacity: 0;
+    }
+}
+
+/* Diseño responsive */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .logo h1 {
+        margin-bottom: 1rem;
+    }
+    
+    nav ul {
+        justify-content: center;
+    }
+    
+    .personajes h2 {
+        font-size: 2rem;
+    }
+    
+    .container {
+        gap: 1.5rem;
+        padding: 0 1rem;
+        height: 70vh;
+    }
+    
+    .character {
+        height: 70vh;
+    }
+    
+    .card {
+        width: 180px;
+        font-size: 14px;
+        top: 10px;
+    }
+    .card h3 {
+        font-size: 1.2rem;
+    }
+    .card p {
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 480px) {
+    .personajes h2 {
+        font-size: 1.8rem;
+    }
+    
+    .container {
+        gap: 1rem;
+        padding: 0 0.5rem;
+        height: 60vh;
+    }
+    
+    .character {
+        height: 60vh;
+    }
+    
+    .card {
+        width: 150px;
+        font-size: 12px;
+        top: 5px;
+        padding: 10px;
+    }
+    .card h3 {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    .card p {
+        font-size: 0.8rem;
+    }
+    
+    nav ul li {
+        margin: 0.3rem 0.5rem;
+    }
+    
+    nav ul li a {
+        padding: 0.4rem 0.6rem;
+        font-size: 0.9rem;
+    }
+}

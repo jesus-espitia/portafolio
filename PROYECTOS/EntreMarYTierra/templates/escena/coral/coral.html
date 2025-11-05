@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../static/css/escena/css/style.css">
+    <title>Document</title>
+</head>
+
+<body class="aquacolor">
+
+    <section class="container-big">
+
+
+        <div class="contenedor-p1">
+
+            <button class="btn-Siguiente"><img src="../../../static/img/azul/Siguiente.png" alt=""></button>
+            <button class="btn-Anterior"> <img src="../../../static/img/azul/Anterior.png" alt=""></button>
+            <button class="btn-Texto"> <img src="../../../static/img/azul/Texto.png" alt=""></button>
+            <button class="btnAudio"> <img src="../../../static/img/azul/Audio.png" alt=""></button>
+            <button class="btn-info"> <img src="../../../static/img/azul/info.png" alt=""></button>
+            <a href="../../personajes.html">
+                <button class="btn-inicio"> <img src="../../../static/img/azul/inicio.png" alt=""></button>
+            </a>
+
+            <iframe src="escena1/index.html" frameborder="0"></iframe>
+
+            <div class="parrafos">La superficie puede parecer maravillosa,
+                pero todos saben que la verdadera magia está bajo el
+                mar. En las aguas cristalinas del reino de Atlántida,
+                las sirenas vivían en armonía bajo el reinado del serio
+                pero justo Rey Tritón Ámbar. </div>
+        </div>
+    </section>
+
+
+    <script>
+        const btnsiguiente = document.querySelector(".btn-Siguiente")
+        const iframe = document.querySelector("iframe")
+        const parrafos = document.querySelector(".parrafos")
+        const btntexto = document.querySelector(".btn-Texto")
+        let pagina = 1;
+        let txtActivo = true;
+
+
+        btntexto.addEventListener("click", function () {
+
+
+            if (txtActivo == true) {
+                parrafos.style.display = "none"
+                txtActivo = false
+            } else if (txtActivo == false) {
+                parrafos.style.display = "block"
+                txtActivo = true
+            }
+
+        })
+
+        btnsiguiente.addEventListener("click", function () {
+
+            if (pagina == 1) {
+                iframe.src = "escena2/index.html"
+                parrafos.textContent = "Aqui va el texto de la escena 2"
+                pagina = 2
+
+            } else if (pagina == 2) {
+                iframe.src = "escena3/index.html"
+                parrafos.textContent = "Aqui va el texto de la escena 3"
+                pagina = 3
+            } else if (pagina == 3) {
+                iframe.src = "escena4/index.html"
+                parrafos.textContent = "Aqui va el texto de la escena 4"
+                pagina = 4
+            } else if (pagina == 4) {
+                iframe.src = "escena5/index.html"
+                parrafos.textContent = "Aqui va el texto de la escena 5"
+                pagina = 5
+            }
+
+            document.startViewTransition(function () {
+                iframe.style.opacity = 0;
+                setTimeout(() => {
+                    iframe.style.opacity = 1;
+
+                }, 1000);
+            })
+
+        })
+
+
+        const btnAnterior = document.querySelector(".btn-Anterior")
+
+
+        btnAnterior.addEventListener("click", function () {
+
+            if (pagina == 2) {
+                iframe.src = "escena1/index.html"
+                parrafos.textContent = "Aqui va el texto de la escena 1"
+                pagina = 1
+            } else if (pagina == 3) {
+                iframe.src = "escena2/index.html"
+                parrafos.textContent = "Aqui va el texto de la escena 2"
+                pagina = 2
+            } else if (pagina == 4) {
+                iframe.src = "escena3/index.html"
+                parrafos.textContent = "Aqui va el texto de la escena 3"
+                pagina = 3
+            } else if (pagina == 5) {
+                iframe.src = "escena4/index.html"
+                parrafos.textContent = "Aqui va el texto de la escena 4"
+                pagina = 4
+            }
+
+        })
+
+    </script>
+
+</body>
+
+</html>

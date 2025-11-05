@@ -1,0 +1,125 @@
+body{
+    background-color:rgb(202, 227, 250)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Noto Sans Linear B', sans-serif;
+}
+.imagenes-movidas section img{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.logo-corazon img{
+    width: 100px;
+    margin-left: 610px;
+    margin-top: 9px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    box-shadow: 0 4px 25px -22px black;
+    z-index: 2;
+}
+
+.heder-content{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.logo h1 b{
+    color:black;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.suport{
+    font-family: 'Fira Sans', sans-serif;
+    color: black;
+}
+
+.suport{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.menu{
+    height: 80px;
+}
+
+.menu nav{
+    height: 100%;
+}
+
+.menu nav ul{
+    height: 100%;
+    display: flex;
+    list-style: none;
+}
+
+.menu nav ul li{
+    height: 100%;
+    margin: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.menu-selected:before{
+    content: '';
+    width: 100%;
+    height: 4px;
+    background: pink;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.menu nav ul li a{
+    color: #777777;
+    font-size: 18px;
+    transition: color 300ms;
+}
+
+.menu nav ul li a:hover{
+    color: pink;
+}
+
+.menu .text-menu-selected{
+    color: pink;
+}
+
+.logo-corazon img{
+    width: 100px;
+    margin-left: 650px;
+    margin-top: 9px;
+}
+
+.videos-juan video{
+    display: flex;
+    margin-left: 320px;
+    border-radius: 20px;
+    width: 800px;
+}
+
+.logo-letras img{
+    width: 80px;
+    margin-right: 10px;
+}

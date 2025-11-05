@@ -1,0 +1,249 @@
+body {
+  background-color: #590572;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.contenedor {
+    top: 20px;
+  overflow: hidden;
+  position: relative;
+  width: 1200px;
+  height: 540px;
+  margin: 0 auto;
+  background-image: url(IMG/FONDO3a.svg);
+  background-size: cover;
+}
+
+/* Área de burbujas */
+.burbujas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+/* Estilo de cada burbuja */
+.burbuja {
+  position: absolute;
+  bottom: -20px;
+  width: 20px;
+  height: 20px;
+  background: rgba(106, 237, 235, 0.3);
+  border-radius: 50%;
+  animation: flotar 8s ease-in forwards;
+}
+
+/* Animación de flotación */
+@keyframes flotar {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(-200px) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-400px) scale(0.8);
+    opacity: 0;
+  }
+}
+#concha {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 22px;
+  left: 7px;
+}
+#conchita {
+  position: absolute;
+  width: 167px;
+  height: 188px;
+  top: 320px;
+  left: 70px;
+}
+#cangrejo {
+  position: absolute;
+  width: 603px;
+  height: 268px;
+  top: 367px;
+  left: 611px;
+}
+#algas {
+  position: absolute;
+  width: 1200px;
+  height: 700px;
+  top: -12px;
+  left: 0px;
+}
+#personaje{
+  position: absolute;
+  width: 145px;
+  height: 264px;
+  top: 262px;
+  left: 366px;
+}
+
+
+.invisible-btn {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 3;
+}
+#btn-concha {
+  top: 148px;
+  left: 505px;
+  width: 233px;
+  height: 220px;
+}
+#btn-conchita {
+ top: 385px;
+  left: 98px;
+  width: 126px;
+  height: 92px;
+}
+#btn-cangrejo {
+  top: 436px;
+  left: 879px;
+  width: 119px;
+  height: 83px;
+}
+
+#btn-algas{
+  width: 1085px;
+  height: 147px;
+  top: 5px;
+  left: 90px;
+}
+#btn-personaje{
+  width: 100px;
+  height: 184px;
+  top: 298px;
+  left: 383px;
+}
+
+.container-big{
+    width:100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0%;
+
+}
+
+.contenedor-p1{
+width: 1200px;
+height: 540px;
+margin: 50px auto;
+position: relative;
+
+
+}
+
+.btn-Siguiente{
+    position: absolute;
+    right:0 ;
+    bottom: -45px;
+    border: 0;
+    background: none;
+    width: 38px;
+
+}
+
+.btn-Siguiente img{
+    width: 100%;
+}
+
+.btn-Anterior{
+    position: absolute;
+    left:1100px ;
+    bottom: -45px;
+    border: 0;
+    background: none;
+    width: 38px;
+}
+
+.btn-Anterior img{
+    width: 100%;
+}
+
+
+.btn-inicio{
+    position: absolute;
+    left:-5px ;
+    bottom:-50px;
+    border: 0;
+    background: none;
+    width: 38px;
+}
+
+
+.btn-inicio img{
+        width: 100%;
+}
+
+
+.btnAudio{
+    position: absolute;
+    left:-49px;
+    top: 50px;
+    border: 0;
+    background: none;
+    width: 30px;
+    z-index: 2;
+}
+
+.btnAudio img{
+    width: 100%;
+}
+
+.btn-info{
+    position: absolute;
+    left: -50px;
+    top: 0;
+    border: 0;
+    background: none;
+    width: 32px;
+    z-index: 2;
+}
+.btn-info img{
+    width: 100%;
+}
+
+.btn-Texto{
+    position: absolute;
+    left: 6px;
+    top: 10px;
+    border: 0;
+    background: none;
+    width: 25px;
+    z-index: 2;
+}
+.btn-Texto img{
+    width: 100%;
+}
+
+
+
+
+iframe{
+    width:100% ;
+    height:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.parrafos{
+    width: 80%;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    background-color: rgb(206, 217, 255);
+}
